@@ -41,7 +41,7 @@
                 break;
         }
 
-        echo "El resultado es : ".$resultado;
+        echo "El resultado es : ".$resultado." otra variable ".$n1;
         
     }
     
