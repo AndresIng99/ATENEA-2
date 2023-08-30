@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Monipulación del DOM</title>
+    </head>
+    <body>
+        <h1 id="titulo">Lista de tareas asignadas</h1>
+        <input type="text" id="nuevaTarea" placeholder="Nueva tarea">
+        <button id="agregarTarea">Agregar</button>
+        <button onclick="document.getElementById('titulo').style.display='block'">borrar titulo</button>
+        <ul id="listaTareas">
+            <li>Tarea de Ejemplo</li>
+        </ul>
+        <script src="js/script.js"></script>
+    </body>
+</html>

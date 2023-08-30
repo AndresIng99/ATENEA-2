@@ -1,0 +1,7 @@
+#titulo{
+    display: none;
+}
+.completado{
+    text-decoration: underline overline;
+    color: red;
+}

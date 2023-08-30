@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="ejercicio1.php" method="post">
+    <form action="ejercicio1.php" method="POST">
         <h1>Ingrese numeros a operar</h1>
         <input type="number" name="n1" placeholder="ingrese numero 1">
         <input type="number" name="n2" placeholder="ingrese numero 2">
