@@ -1,0 +1,113 @@
+/*Fuentes de google*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+/*Estilos de la pagina*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+header img{
+    height: 95%;
+    padding-left: 100px;
+}
+nav{
+    margin-left: 40%;
+}
+nav ul{
+    display: inline-flex;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 40px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+/*Estilos parala seccion principal*/
+
+#main-container{
+    width: 90%;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 5%;
+    height: 700px;
+}
+
+#main-container .info{
+    width: 40%;
+    height: 100%;
+}
+#main-container .info h1{
+    font-size: 80px;
+    margin-top: 40px;
+    text-transform: capitalize;
+    color: rgb(53, 158, 158);
+}
+#main-container .info p{
+    font-size: 20px;
+    padding-top: 30px;
+    color: rgb(110, 110, 110);
+    font-family: 'Roboto', sans-serif;
+}
+#main-container .info button{
+    margin-top: 80px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(71, 174, 174);
+    border-radius: 30px;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    transition: all 1s;
+}
+#main-container .info button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(71, 174, 174);
+    transition: all 1s;
+    box-shadow: 0px 0px 19px 0px rgb(71, 174, 174);
+
+}
+#main-container .illustation{
+    width: 60%;
+    height: 100%;
+}
+#main-container .illustation img{
+    width: 100%;
+}
+
+
+
+@media (max-width: 1200px) {
+    nav{
+        margin-left: 30%;
+    }
+    #main-container{
+        display: block;
+    }
+    #main-container .info{
+        width: 90%;
+        height: auto;
+    }
+    #main-container .illustation{
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 800px) {
+    header{
+        display: block;
+        text-align: center;
+    }
+    nav{
+        margin-left: 0px !important;
+    }
+}
