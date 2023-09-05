@@ -1,0 +1,52 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,221,102,1) 0%, rgba(15,197,201,1) 100%);
+}
+#main{
+    width: 80%;
+    height: 550px;
+    background-color: white;
+    border-radius: 70px;
+    margin: 200px 10%;
+    display: flex;
+}
+#main .hijo1{
+    width: 45%;
+    height: 100%;
+    border-radius: 70px 0px 0px 70px;
+    background-color: blueviolet;
+}
+#main .hijo2{
+    width: 55%;
+    height: 100%;
+    border-radius: 0px 70px 70px 0px;
+    background-color: rgb(115, 113, 118);
+}
+
+@media (max-width: 875px) {
+    #main{
+        width: 80%;
+        height: 850px;
+        background-color: white;
+        border-radius: 70px;
+        margin: 200px 10%;
+        display: block;
+    }
+    #main .hijo1{
+        width: 100%;
+        height: 30%;
+        border-radius: 70px 70px 0px 0px;
+        background-color: blueviolet;
+    }
+    #main .hijo2{
+        width: 100%;
+        height: 70%;
+        border-radius: 0px 0px 70px 70px;
+        background-color: rgb(115, 113, 118);
+    }
+}
