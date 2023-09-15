@@ -19,6 +19,7 @@ font-family: 'Roboto', sans-serif;
     width: calc(100% - 176px);
     height: calc(100vh - 176px);
     padding: 88px;
+    z-index: 1;
     background-color: #EBE3CC;
 }
 #main-contain .logo{
@@ -35,6 +36,7 @@ font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 0;
     background-image: url('../image/lateral.png');
 }
 
@@ -45,6 +47,7 @@ Estilos para el segundo contenedor (info e imagen)
     width: 100%;
     max-height: calc(100vh - 160) ;
     display: inline-flex;
+    
 }
 /*
 Estilos para el divisor de información
@@ -52,14 +55,15 @@ Estilos para el divisor de información
 .second-contain .info{
     width: 55%;
     height: 100%;
+    z-index: 1;
 }
 .second-contain .info h1{
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 500;
     color: #46AC5D;
 }
 .second-contain .info h1 span{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 500;
     color: #D86423;
 }
@@ -113,3 +117,95 @@ Estilos para el divisor imagen
     color: #062D3E;
     font-size: 20px;
 }
+
+
+@media (max-width: 1370px){
+    .second-contain .info h1{
+        font-size: 70px;
+    }
+    .second-contain .info h1 span{
+        font-size: 40px;
+    }
+    #main-contain .logo img{
+        width: auto;
+        height: 130px;
+    }
+    .second-contain .image-veterinaria img{
+        width: 450px;
+        right: 200px;
+    }
+}
+
+@media (max-width: 1100px){
+    .navegacion{
+        position: absolute;
+        right: 28%;
+        top: 4%;
+        width: auto;
+        border-radius: 50px;
+        height: 70px;
+        background-color: #46AC5D;
+        opacity: 0.6;
+    }
+    /*.navegacion ul{
+        list-style: none;
+        text-align: center;
+    }*/
+    .navegacion ul li{
+        display: inline-flex;
+        padding: 15px 25px;
+        margin: 8px 10px;
+    }
+    .second-contain .image-veterinaria img{
+        position: absolute;
+        bottom: 0px;
+        width: 280px;
+        right: 10px;
+    }
+    .float-containt{
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 150px;
+        background-image: url('../image/superior.png');
+        background-position: bottom;
+    }
+    #main-contain{
+        /*width: calc(100%-176);*/
+        width: calc(100% - 176px);
+        height: calc(100vh - 176px);
+        padding: 180px 88px 88px 88px;
+        z-index: 1;
+        background-color: #EBE3CC;
+    }
+}
+
+@media (max-width: 722px){
+    .second-contain .image-veterinaria{
+        display: none;
+    }
+    .second-contain .info{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        text-align: center;
+    }
+    #main-contain .logo{
+        text-align: center;
+    }
+    .navegacion{
+        position: absolute;
+        /*right: 28%;*/
+        top: 4%;
+        margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+        width: auto;
+        border-radius: 50px;
+        height: 70px;
+        background-color: #46AC5D;
+        opacity: 0.6;
+    }
+}
+
