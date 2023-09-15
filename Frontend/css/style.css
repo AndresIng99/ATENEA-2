@@ -1,0 +1,50 @@
+#primera{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+#segunda{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 242, 0);
+}
+#tercera{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 0, 170);
+}
+a:visited {
+    color: (internal value);
+    text-decoration: overline;
+    cursor: auto;
+  }
+  
+  a:link:active, a:visited:active {
+    text-decoration: line-through;
+    color: (internal value);
+  }
+
+  img{
+    width: 400px;
+    height: auto;
+  }
+
+  .cuadro1{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+  }
+  .cuadro2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(43, 226, 73);
+  }
+  .video_prueba{
+    width: 500px;
+    height: 300px;
+  }
+  .separador{
+    width: 80%;
+    margin: auto;
+    border: 2px solid #bf1212;
+  }

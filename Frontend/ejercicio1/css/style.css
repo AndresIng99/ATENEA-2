@@ -1,0 +1,115 @@
+/*
+Fuentes del sitio
+font-family: 'Kiwi Maru', serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lora&family=Roboto:wght@300&display=swap');
+
+/*Código del contenedor principal*/
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kiwi Maru', serif;
+}
+#main-contain{
+    /*width: calc(100%-176);*/
+    width: calc(100% - 176px);
+    height: calc(100vh - 176px);
+    padding: 88px;
+    background-color: #EBE3CC;
+}
+#main-contain .logo{
+    width: 100%;
+    height: 160px;
+}
+#main-contain .logo img{
+    width: auto;
+    height: 160px;
+}
+.float-containt{
+    width: 523px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../image/lateral.png');
+}
+
+/*
+Estilos para el segundo contenedor (info e imagen)
+*/
+.second-contain{
+    width: 100%;
+    max-height: calc(100vh - 160) ;
+    display: inline-flex;
+}
+/*
+Estilos para el divisor de información
+*/
+.second-contain .info{
+    width: 55%;
+    height: 100%;
+}
+.second-contain .info h1{
+    font-size: 100px;
+    font-weight: 500;
+    color: #46AC5D;
+}
+.second-contain .info h1 span{
+    font-size: 70px;
+    font-weight: 500;
+    color: #D86423;
+}
+.second-contain .info .main-button{
+    width: 235px;
+    height: 55px;
+    background-color: #D86423;
+    color: #fff;
+    border-radius: 45px;
+}
+/*
+Estilos para el divisor imagen
+*/
+.second-contain .image-veterinaria{
+    width: 45%;
+    height: 100%;
+    z-index: 1;
+}
+.second-contain .image-veterinaria img{
+    position: absolute;
+    bottom: 0px;
+    width: 520px;
+    right: 250px;
+}
+
+/*Estilos para la barra de navegación*/
+
+.navegacion{
+    position: absolute;
+    right: 40px;
+    top: 25%;
+    width: 70px;
+    border-radius: 50px;
+    height: auto;
+    background-color: #46AC5D;
+    opacity: 0.6;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+}
+.navegacion li{
+    padding: 25px 15px;
+    border-radius: 50px;
+    margin: 15px 10px;
+    background-color: #b2dfbcad;
+    
+}
+
+.navegacion li i{
+    color: #062D3E;
+    font-size: 20px;
+}
