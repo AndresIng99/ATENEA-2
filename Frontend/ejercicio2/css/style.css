@@ -1,0 +1,135 @@
+/*Tipografía y estilos generales*/
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lora&family=Montserrat:ital,wght@0,400;0,500;0,700;1,600&family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.blue{
+    background-color: #1F73C6;
+    color: #1F73C6;
+}
+.blue2{
+    background-color: #00BCD4;
+    color: #00BCD4;
+}
+.black{
+    color: #000;
+    background-color: #000;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*styles general header*/
+
+header{
+    width: 100%;
+    position: relative;
+    justify-content: flex-start;
+    display: inline-flex;
+    height: 90px;
+    align-items: center;
+    border-bottom: solid 1px #777777;
+}
+header img{
+    height: 55%;
+    margin-left: 100px;
+}
+header nav{
+    position: absolute;
+    right: 0;
+}
+header nav ul{
+    display: inline-flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #303030;
+    font-size: 16px;
+    margin: 25px;
+    text-transform: uppercase;
+}
+header nav ul li a:hover{
+    color: #cf2e2e;
+}
+header nav ul .search{
+    border-left: solid 1px #303030;
+}
+header nav ul .search i{
+    color: #00BCD4;
+}
+/*style main section*/
+
+#main-contain{
+    width: 90%;
+    display: inline-flex;
+    margin-top: 70px;
+    margin-left: 5%;
+    height: 670px;
+}
+#main-contain .colors{
+    width: 5%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: -webkit-center;
+}
+.blue, .blue2, .black{
+    width: 49px;
+    margin: 8px 0px;
+    height: 49px;
+    border-radius: 100px;
+}
+
+#main-contain .colors span{
+    padding-top: 5px;
+    font-weight: bold;
+    color: #747474;
+}
+#main-contain .bike{
+    width: 45%;
+    text-align: -webkit-center;
+    height: 100%;
+}
+#main-contain .bike img{
+    margin-top: 50px;
+    width: 80%;
+    height: auto;
+}
+#moto_gris, #moto_negra{
+    display: none;
+}
+#main-contain .info{
+    width: 50%;
+    height: 100%;
+}
+#main-contain .info h1{
+    font-size: 75px;
+    color: #00BCD4;
+    font-weight: bold;
+}
+#main-contain .info span{
+    font-size: 22px;
+    color: #00BCD4;
+    font-weight: normal;
+}
+#main-contain .info h2{
+    font-size: 75px;
+    color: #374F5B;
+    font-weight: bold;
+}
+#main-contain .info p{
+    font-size: 22px;
+    color: #747474;
+    font-weight: normal;
+}
+#main-contain .info .buttons_info{
+    width: 80%;
+    height: 70px;
+    background-color: #303030;
+}
