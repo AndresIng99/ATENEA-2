@@ -64,10 +64,10 @@ header nav ul .search i{
 /*style main section*/
 
 #main-contain{
-    width: 90%;
+    width: 80%;
     display: inline-flex;
     margin-top: 70px;
-    margin-left: 5%;
+    margin-left: 10%;
     height: 670px;
 }
 #main-contain .colors{
@@ -79,6 +79,11 @@ header nav ul .search i{
     flex-direction: column;
     text-align: -webkit-center;
 }
+#main-contain .colors i{
+    transform: rotate(225deg);
+    color: #747474;
+}
+
 .blue, .blue2, .black{
     width: 49px;
     margin: 8px 0px;
@@ -92,7 +97,7 @@ header nav ul .search i{
     color: #747474;
 }
 #main-contain .bike{
-    width: 45%;
+    width: 50%;
     text-align: -webkit-center;
     height: 100%;
 }
@@ -105,16 +110,18 @@ header nav ul .search i{
     display: none;
 }
 #main-contain .info{
-    width: 50%;
+    width: 45%;
     height: 100%;
 }
 #main-contain .info h1{
     font-size: 75px;
     color: #00BCD4;
     font-weight: bold;
+    margin-top: 100px;
 }
 #main-contain .info span{
     font-size: 22px;
+    margin: 20px 0px;
     color: #00BCD4;
     font-weight: normal;
 }
@@ -124,12 +131,80 @@ header nav ul .search i{
     font-weight: bold;
 }
 #main-contain .info p{
-    font-size: 22px;
+    font-size: 18px;
     color: #747474;
+    padding-left: 55%;
     font-weight: normal;
 }
 #main-contain .info .buttons_info{
     width: 80%;
-    height: 70px;
-    background-color: #303030;
+    height: 50px;
+    margin: 85px 0px 20px 0px;
+}
+
+#main-contain .info .buttons_info .comparar{
+   width: 45px;
+   height: 45px;
+   background-color: #D3D3D3;
+   border-radius: 100px;
+   color: #112D57;
+   font-size: 17px;
+   text-align: center;
+}
+#main-contain .info .buttons_info .cotizar,#main-contain .info .buttons_info .asesor{
+    width: auto;
+    height: 45px;
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 15px;
+    border-radius: 100px;
+} 
+#main-contain .info .buttons_info .cotizar{
+    background-color: #ED1744;
+    color: #fff;
+    margin: 0px 12px;
+    border: 1px solid #ED1744;
+    transition: all 0.4s;
+}
+#main-contain .info .buttons_info .cotizar:hover{
+    background-color: #FFF;
+    color: #ED1744;
+    border: 1px solid #ED1744;
+    transition: all 0.4s;
+}
+#main-contain .info .buttons_info .asesor{
+    background-color: #EFEFEF;
+    color: #374F5B;
+    transition: all 0.4s;
+}
+#main-contain .info .buttons_info .asesor:hover{
+    background-color: #ED1744;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+#main-contain .info .legal{
+    font-size: 16px;
+    color: #747474;
+    text-transform: capitalize;
+    font-weight: normal;
+    padding-left: 0px;
+}
+/*Estilos para botón de WhatsApp*/
+.whatsapp{
+    height: 50px;
+    width: auto;
+    padding: 0px 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 17px;
+    background-color: #24D365;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0px 15px;
+}
+.whatsapp i{
+    padding-right: 8px;
+    font-size: 20px;
 }
