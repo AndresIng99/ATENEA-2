@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/27010df775.js" crossorigin="anonymous"></script>
-
+<!-- Import the component 
+<script
+      src="js/js_modelviewer_1.js"
+      defer
+    ></script>-->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>  
     <title>Yamaha</title>
 </head>
 <body>
@@ -35,17 +40,20 @@
         </nav>
     </header>
     <section id="main-contain">
-        <div class="colors">
-            <div class="blue"></div>
-            <div class="blue2"></div>
-            <div class="black"></div>
-            <span>360</span>
-            <i class="fa-solid fa-arrow-rotate-right"></i>
-        </div>
-        <div class="bike">
-            <img id="moto_azul" src="img/azul.png" alt="azul">
-            <img id="moto_gris" src="img/gris.png" alt="gris">
-            <img id="moto_negra" src="img/negra.jpg" alt="negra">
+        <div class="group-firts">
+            <div class="colors">
+                <button class="blue" onclick="activateblue()"></button>
+                <button class="blue2" onclick="activategray()"></button>
+                <button class="black" onclick="activateblack()"></button>
+                <span>360</span>
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+            </div>
+            <div class="bike">
+                <img id="moto_azul" src="img/azul.jpg" alt="azul">
+                <img id="moto_gris" src="img/gris.jpg" alt="gris">
+                <img id="moto_negra" src="img/negra.jpg" alt="negra">
+            
+            </div>
         </div>
         <div class="info">
             <h1>MT09</h1>
@@ -71,5 +79,42 @@
     </section>
 
 
+<!--
+    
+        <div class="tercera-d">
+            <model-viewer class="modelo"
+            src="3d_objects/bimer.glb"
+            ios-src=""
+            poster=""
+            alt="acá está un carro"
+            shadow-intensity="0"
+            camera-controls
+            auto-rotate
+            ar
+            >
+            </model-viewer>
+        </div>
+
+
+
+        <model-viewer 
+        alt="Neil Air and Space Museum" 
+        src="3d_objects/genBlender.glb" 
+        ar
+        shadow-intensity="1" 
+        camera-controls 
+        touch-action="pan-y">
+    </model-viewer>
+    <model-viewer 
+    alt="Neil Air and Space Museum" 
+    src="3d_objects/NeilArmstrong.glb" 
+    ar
+    shadow-intensity="1" 
+    camera-controls 
+    touch-action="pan-y">
+</model-viewer>
+
+-->
+    <script src="js/script.js"></script>
 </body>
 </html>

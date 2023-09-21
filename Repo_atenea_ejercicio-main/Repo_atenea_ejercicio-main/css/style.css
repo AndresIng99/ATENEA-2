@@ -1,0 +1,339 @@
+/*Tipografía y estilos generales*/
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lora&family=Montserrat:ital,wght@0,400;0,500;0,700;1,600&family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.blue{
+    background-color: #1F73C6;
+    color: #1F73C6;
+}
+.blue2{
+    background-color: #00BCD4;
+    color: #00BCD4;
+}
+.black{
+    color: #000;
+    background-color: #000;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*styles general header*/
+
+header{
+    width: 100%;
+    position: relative;
+    justify-content: flex-start;
+    display: inline-flex;
+    height: 90px;
+    align-items: center;
+    border-bottom: solid 1px #777777;
+}
+header img{
+    height: 55%;
+    margin-left: 100px;
+}
+header nav{
+    position: absolute;
+    right: 0;
+}
+header nav ul{
+    display: inline-flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #303030;
+    font-size: 16px;
+    margin: 25px;
+    text-transform: uppercase;
+}
+header nav ul li a:hover{
+    color: #cf2e2e;
+}
+header nav ul .search{
+    border-left: solid 1px #303030;
+}
+header nav ul .search i{
+    color: #00BCD4;
+}
+/*style main section*/
+
+#main-contain{
+    width: 80%;
+    display: inline-flex;
+    margin-top: 70px;
+    margin-left: 10%;
+    height: 670px;
+}
+#main-contain .colors{
+    width: 5%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: -webkit-center;
+}
+#main-contain .colors i{
+    transform: rotate(225deg);
+    color: #747474;
+}
+
+.blue, .blue2, .black{
+    width: 49px;
+    margin: 8px 0px;
+    height: 49px;
+    border-radius: 100px;
+}
+
+#main-contain .colors span{
+    padding-top: 5px;
+    font-weight: bold;
+    color: #747474;
+}
+#main-contain .bike{
+    width: 50%;
+    text-align: -webkit-center;
+    height: 100%;
+}
+#main-contain .bike img{
+    margin-top: 50px;
+    width: 80%;
+    height: auto;
+}
+#moto_gris, #moto_negra{
+    display: none;
+}
+#main-contain .info{
+    width: 45%;
+    height: 100%;
+}
+#main-contain .info h1{
+    font-size: 75px;
+    color: #00BCD4;
+    font-weight: bold;
+    margin-top: 100px;
+}
+#main-contain .info span{
+    font-size: 22px;
+    margin: 20px 0px;
+    color: #00BCD4;
+    font-weight: normal;
+}
+#main-contain .info h2{
+    font-size: 75px;
+    color: #374F5B;
+    font-weight: bold;
+}
+#main-contain .info p{
+    font-size: 18px;
+    color: #747474;
+    padding-left: 55%;
+    font-weight: normal;
+}
+#main-contain .info .buttons_info{
+    width: 80%;
+    height: 50px;
+    margin: 85px 0px 20px 0px;
+}
+
+#main-contain .info .buttons_info .comparar{
+   width: 45px;
+   height: 45px;
+   background-color: #D3D3D3;
+   border-radius: 100px;
+   color: #112D57;
+   font-size: 17px;
+   text-align: center;
+}
+#main-contain .info .buttons_info .cotizar,#main-contain .info .buttons_info .asesor{
+    width: auto;
+    height: 45px;
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 15px;
+    border-radius: 100px;
+} 
+#main-contain .info .buttons_info .cotizar{
+    background-color: #ED1744;
+    color: #fff;
+    margin: 0px 12px;
+    border: 1px solid #ED1744;
+    transition: all 0.4s;
+}
+#main-contain .info .buttons_info .cotizar:hover{
+    background-color: #FFF;
+    color: #ED1744;
+    border: 1px solid #ED1744;
+    transition: all 0.4s;
+}
+#main-contain .info .buttons_info .asesor{
+    background-color: #EFEFEF;
+    color: #374F5B;
+    transition: all 0.4s;
+}
+#main-contain .info .buttons_info .asesor:hover{
+    background-color: #ED1744;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+#main-contain .info .legal{
+    font-size: 16px;
+    color: #747474;
+    text-transform: capitalize;
+    font-weight: normal;
+    padding-left: 0px;
+}
+/*Estilos para botón de WhatsApp*/
+.whatsapp{
+    height: 50px;
+    width: auto;
+    padding: 0px 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 17px;
+    background-color: #24D365;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0px 15px;
+}
+.whatsapp i{
+    padding-right: 8px;
+    font-size: 20px;
+}
+@media(max-width:3390px){
+    #main-contain .bike img {
+        width: 60%;
+        height: 80%;
+    }
+    #main-contain .info{
+        width: 40%;
+        height: 80%;
+    }
+    #main-contain .info h2 {
+        font-size: 60px;
+    }
+    #main-contain .info .buttons_info{
+        width: 50%;
+    }
+}
+@media(max-width:2908px){
+    #main-contain .bike img {
+        width: 60%;
+        height: 80%;
+    }
+    #main-contain .info{
+        width: 40%;
+        height: 80%;
+    }
+    #main-contain .info h2 {
+        font-size: 40px;
+    }
+    #main-contain .info .buttons_info{
+        width: 50%;
+    }
+}
+@media(max-width:1852px){ 
+    #main-contain .bike img {
+        width: 60%;
+        height: 80%;
+    }
+    #main-contain .info{
+        width: 40%;
+        height: 80%;
+    }
+    #main-contain .info h2 {
+        font-size: 20px;
+    }
+    #main-contain .info h1 {
+        font-size: 50px;
+        
+    }
+    #main-contain .info .buttons_info{
+        width: 50%;
+    }
+}
+@media(max-width:960px){
+    header{
+        height: 50px;
+    }
+    header img{
+        width: 6rem;
+        height: 3rem;
+        margin-left: 10px;
+        
+    }
+    header nav ul a{
+        display: none;
+    }
+    div.bike img#moto_azul{
+        width: 450px;
+        height: 422px;
+    }
+    div.bike img#moto_azul{
+        margin-top: -50px;
+    }
+    section#main-contain {        
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows:repeat(2,1fr) ;
+        margin-left: 50px;
+    }
+    div.bike{
+        grid-row:1/1 ;
+        grid-column:1/ 1;
+    }
+    div.colors div{
+        width: 30px;
+        height: 30px;
+        
+    }
+    div.colors {
+        margin-left: 10px;
+    
+        
+    }
+
+    div.info {
+        /* grid-row:2/2 ; */
+        margin-top: -120px;
+        font-size: 10px;
+    }
+    #main-contain .info h1 {
+        font-size: 45px;
+    }
+    #main-contain .info span {
+        font-size: 15px;
+    }
+    #main-contain .info h2 {
+        font-size: 30px;
+    }
+    #main-contain .info p{
+        font-size: 11px;
+        padding-left: 61%;
+        width: 100%;
+        height: 0px;
+    }
+    #main-contain .info .buttons_info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    #main-contain .info .buttons_info .comparar {
+        width: 150px;
+    }
+    #main-contain .info .buttons_info .cotizar {
+        width: 150px;
+    }
+  
+   
+   
+}

@@ -70,8 +70,12 @@ header nav ul .search i{
     margin-left: 10%;
     height: 670px;
 }
+#main-contain .group-firts{
+    display: inline-flex;
+    width: 55%;
+}
 #main-contain .colors{
-    width: 5%;
+    width: 10%;
     height: 100%;
     display: inline-flex;
     align-items: center;
@@ -90,14 +94,14 @@ header nav ul .search i{
     height: 49px;
     border-radius: 100px;
 }
-
 #main-contain .colors span{
     padding-top: 5px;
     font-weight: bold;
     color: #747474;
 }
 #main-contain .bike{
-    width: 50%;
+    width: 90%;
+    min-width: 500px;
     text-align: -webkit-center;
     height: 100%;
 }
@@ -195,7 +199,7 @@ header nav ul .search i{
     height: 50px;
     width: auto;
     padding: 0px 15px;
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     right: 15px;
     font-size: 17px;
@@ -207,4 +211,46 @@ header nav ul .search i{
 .whatsapp i{
     padding-right: 8px;
     font-size: 20px;
+}
+/*Estilos de 3D*/
+
+#main-contain .bike .tercera-d{
+    width: 80%;
+}
+
+#main-contain .bike .tercera-d .modelo{
+    width: 800px;
+}
+
+
+
+
+@media (max-width: 1456px){
+    #main-contain{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+@media (max-width: 1100px){
+    #main-contain{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-bottom: 100px;
+        display: block;
+    }
+    #main-contain .group-firts{
+        width: 100%;
+    }
+    #main-contain .bike{
+        width: 80%;
+        min-width: 550px;
+    }
+    #main-contain .colors{
+        padding-top: 160px;
+        width: 10%;
+    }
+    #main-contain .info{
+        width: 100%;
+    }
 }
