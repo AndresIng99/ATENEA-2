@@ -1,0 +1,20 @@
+.menu {
+    display: none; 
+  }
+  .open{
+    display: block;
+}
+  @media (max-width: 600px) {
+    .menu { 
+      display: block;
+      position: absolute;
+      background: #fff;
+      left: 0;
+      top: 50px; 
+      width: 100%;
+    }
+
+    .hamburger {
+      display: block;
+    }
+  }

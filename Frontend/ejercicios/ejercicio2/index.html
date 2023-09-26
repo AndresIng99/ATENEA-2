@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinar el Número</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Adivina el Número</h1>
+    <p>Introduce un número entre 1 y 100:</p>
+    <input type="number" id="numeroUsuario">
+    <button onclick="comprobarNumero()">Comprobar</button>
+    <p id="resultado"></p>
+    <script>
+      /*Devuelve el máximo entero menor o igual a un número.*/
+        var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+        var intentos = 0;
+
+        function comprobarNumero() {
+            var numeroUsuario = parseInt(document.getElementById('numeroUsuario').value);
+            var resultado = document.getElementById('resultado');
+
+            if (isNaN(numeroUsuario) || numeroUsuario < 1 || numeroUsuario > 100) {
+                resultado.textContent = 'Por favor, ingresa un número válido entre 1 y 100.';
+            } else {
+                intentos++;
+                if (numeroUsuario === numeroAleatorio) {
+                    resultado.textContent = `¡Correcto! ¡Adivinaste en ${intentos} intentos!`;
+                    document.getElementById('numeroUsuario').disabled = true;
+                } else if (numeroUsuario < numeroAleatorio) {
+                    resultado.textContent = 'Demasiado bajo. Intenta nuevamente.';
+                } else {
+                    resultado.textContent = 'Demasiado alto. Intenta nuevamente.';
+                }
+            }
+        }
+    </script>
+</body>
+</html>

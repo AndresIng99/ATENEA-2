@@ -1,0 +1,36 @@
+<style>
+  #menuContent {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #menuContent {
+    display: block;
+    position: absolute;
+    background: #fff;
+    left: 0;
+    top: 50px; 
+    width: 100%;
+  }
+}
+
+</style>
+<nav>
+  <button id="menuBtn">Menú</button>
+  
+  <div id="menuContent">
+    <a href="#">Inicio</a>
+    <a href="#">Acerca de</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </div>
+</nav>
+
+<script>
+const menuBtn = document.getElementById('menuBtn');
+const menuContent = document.getElementById('menuContent');
+
+menuBtn.addEventListener('click', () => {
+  menuContent.classList.toggle('open'); 
+});
+</script>
