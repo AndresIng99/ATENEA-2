@@ -1,0 +1,28 @@
+/*PUNTO 7 Y 8*/
+/*estilos caja contenedora del menu*/
+.nav {
+  width: 60%;
+  height: 55px;
+  background-color: #bd79d0 ;
+ 
+}
+/*estilos del menu*/
+#menu {
+  list-style-type: none;
+  padding-left: 2%;
+}
+#menu li {
+  display: inline-flex;
+}
+#menu li a {
+  margin-top: 6px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(232, 226, 234);
+}
+/*efecti hover*/
+#menu li a:hover {
+  background-color: #1111bf;
+  color: #faf8f8;
+}

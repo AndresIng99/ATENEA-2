@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root {
+    --fondo1: #202020;
+    --fondo2: #ebebeb;
+    --fondo3: #d9d9d9;
+    --verde: #2EB000;
+}
+* {
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--fondo2);
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+}
+hr {
+    padding: 30px 0;
+    border: none;
+}
+
+.espacio-3d {
+    padding: 10px 0;
+    border: none;
+}
+
+/* --------------- BOTONES ----------------------- */
+.btn {
+    background-color: var(--verde);
+    color: var(--fondo1);
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid var(--fondo3);
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.btn:hover {
+    background-color: var(--fondo3);
+    color: var(--verde);
+    transition: all .4s;
+}
+
+a {
+    color: var(--fondo1);
+    text-decoration: none;
+}
+
+.modelo {
+    background-color: var(--fondo1);
+    color: whitesmoke;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 1px solid var(--fondo3);
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    transition: all 0.8s;
+}
+
+.modelo:hover {
+    background-color: var(--fondo2);
+    color: var(--verde);
+    border: 1px solid var(--fondo1);
+    transition: all 0.8s;
+    padding: 18px 28px;
+}
+
+.comprar {
+    background-color: var(--verde);
+    color: var(--fondo1);
+    font-size: 30px;
+    padding: 20px 45px;
+    border-radius: 15px;
+    border: 1px solid var(--fondo3);
+    margin-left: 200px;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    transition: all 1s;
+
+}
+
+.comprar:hover {
+    background-color: var(--fondo1);
+    color: var(--verde);
+    transition: all 1s;
+    z-index: 1;
+    padding: 22px 47px;
+}
+
+/* ------------------- quinta section ---------------- */
+
+#footer {
+    background-color: var(--fondo1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer .logo a img {
+    width: 280px;
+}
+
+#footer .info1 h2,h3,h4{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#footer .info1 ul li {
+    margin: 30px 0;
+}
+
+#footer .info1 ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#footer .info2 ul li {
+    margin: 40px 0;
+}
+
+#footer .info3 ul li {
+    margin: 20px 0;
+}
+
+#footer .info3 ul li {
+    list-style: none;
+}
+
+#footer .info3 ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+

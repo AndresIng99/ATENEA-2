@@ -1,0 +1,234 @@
+/* -------------------------primera section ------------------------ */
+
+.section-1 video {
+    width: 100%;
+}
+
+/* ------------------------segunda section -------------------------- */
+
+.black {
+    background-color: var(--fondo1);
+    color: var(--fondo1);
+    cursor: pointer;
+}
+
+.green {
+    background-color: var(--verde);
+    color: var(--verde);
+    cursor: pointer;
+}
+
+.black, .green {
+    width: 70px;
+    margin: 10px 0px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+
+
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--fondo3);
+}
+
+.section-2 .colors {
+    width: 5%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.section-2 .moto {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .moto img{
+    width: 900px;
+}
+
+.section-2 .moto #moto-verde{
+    display: none;
+}
+
+.section-2 .especificaciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 .especificaciones img {
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+/* -------------terecera section -------------------- */
+
+.section-3 {
+    background-color: var(--fondo3);
+    display: flex;
+    align-items: end;
+    padding-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.section-3 .texto-1 {
+    margin-left: 300px;
+}
+
+.section-3 .texto-1 h1, p {
+    color: var(--fondo1);
+}
+
+.section-3 .texto-1 h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.section-3 .texto-1 p {
+    font-size: 70px;
+}
+
+.section-3 .texto-1 button {
+    margin-left: 100px;
+}
+
+
+
+/* ----------------- cuarta section ------------------- */
+
+.section-4 {
+    background-color: var(--fondo3);
+    padding: 20px 0;
+}
+
+.section-4 .sparte1 {
+    display: flex;
+}
+
+.section-4 .sparte1 img{
+    height: 229px;
+}
+
+.section-4 .sparte2 {
+    display: flex;
+}
+
+.section-4 .sparte2 img{
+    height: 222px;
+}
+
+.section-4 .sparte1 a #img1:hover,
+.section-4 .sparte1 a #img2:hover,
+.section-4 .sparte1 a #img3:hover,
+.section-4 .sparte1 a #img4:hover,
+.section-4 .sparte2 a #img5:hover,
+.section-4 .sparte2 a #img6:hover,
+.section-4 .sparte2 a #img7:hover,
+.section-4 .sparte2 a #img8:hover {
+    transition: all .10s;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para resaltar el texto */
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.texto-oculto {
+    color: white;
+}
+
+.contenedor:hover .overlay {
+    opacity: 1;
+} 
+
+@media (max-width: 1085px) {
+    .section-2 {
+        display: block;
+        align-items: center;
+        background-color: var(--fondo3);
+        padding-left: 30px;
+    }
+    .section-2 .moto img{
+        padding-left: 150px;
+        width: 100%;
+    }
+    .section-2 .colors {
+        display: inline-flex;
+        width: 220px;
+        margin-left: 35%;
+    }
+
+    .section-2 .colors .green {
+        margin-right: 20px;
+    }
+
+    .section-2 .colors .black {
+        margin: 10px;
+    }
+    .section-2 .especificaciones {
+        display: block;
+        margin-left: 10%;
+    }
+
+    .section-2 .especificaciones img {
+        width: 60px;
+    }
+    .section-3 {
+        background-color: var(--fondo3);
+        display: block;
+        padding-bottom: 30px;
+    }
+    .section-3 .texto-1 {
+        margin-left: 70px;
+        font-size: auto;
+    }
+
+    #footer {
+        display: block;
+        padding-left: 200px;
+    }
+
+}
+
+
+@media (min-width: 1500px) {
+    .section-4 .sparte1 img{
+        height: 286px;
+    }
+    .section-4 .sparte2 img{
+        height: 278px;
+    }
+}
+
+@media (max-width: 1430px) {
+    .section-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-4 .sparte1 {
+        display: block;
+    }
+    .section-4 .sparte2 {
+        display: block;
+    }
+}

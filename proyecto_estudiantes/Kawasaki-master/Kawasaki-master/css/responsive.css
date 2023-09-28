@@ -1,0 +1,76 @@
+@media (max-width: 1085px) {
+    .section-2 {
+        display: block;
+        align-items: center;
+        background-color: var(--fondo3);
+        padding-left: 30px;
+    }
+    .section-2 .moto img{
+        padding-left: 150px;
+        width: 100%;
+    }
+    .section-2 .colors {
+        display: inline-flex;
+        width: 220px;
+        margin-left: 35%;
+    }
+
+    .section-2 .colors .green {
+        margin-right: 20px;
+    }
+
+    .section-2 .colors .black {
+        margin: 10px;
+    }
+    .section-2 .especificaciones {
+        display: block;
+        margin-left: 10%;
+    }
+
+    .section-2 .especificaciones img {
+        width: 60px;
+    }
+    .section-3 {
+        background-color: var(--fondo3);
+        display: block;
+        padding-bottom: 30px;
+    }
+    .section-3 .texto-1 {
+        margin-left: 70px;
+        font-size: auto;
+    }
+
+    #footer {
+        display: block;
+        padding-left: 200px;
+    }
+
+    header nav .menu1, .btn {
+        display: none;
+    }
+
+    header nav .menu {
+        display: flex;
+        width: 100px;
+    }
+
+    header nav .menu button {
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+    }
+
+    header nav .menu button i {
+        color: white;
+    } 
+}
+
+
+@media (min-width: 1500px) {
+    .section-4 .sparte1 img{
+        height: 286px;
+    }
+    .section-4 .sparte2 img{
+        height: 278px;
+    }
+}

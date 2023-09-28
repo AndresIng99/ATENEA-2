@@ -1,0 +1,80 @@
+/* --------------- BARRA DE NAVEGACION --------------- */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header nav{
+    background-color: var(--fondo1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px #767676;
+}
+
+header nav .logos {
+    align-items: center;
+    display: flex;
+    margin-left: 60px;
+}
+
+header nav .logos .logo1 {
+    width: 60px;
+    margin: 10px 0;
+}
+
+header nav .logos .logo2 {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header nav ul li a i {
+    color: var(--verde);
+    padding-left: 5px;
+}
+
+header nav button{
+    margin-right: 60px;
+}
+
+header .menu {
+    display: none;
+}
+
+@media (max-width: 1085px) {
+    
+    header nav .menu1, .btn {
+        display: none;
+    }
+
+    header nav .menu {
+        display: flex;
+        width: 100px;
+    }
+
+    header nav .menu button {
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+    }
+
+    header nav .menu button i {
+        color: white;
+    } 
+}

@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6B447B; /* Morado Oscuro */
+    color: #000000; /* Negro */
+    /* position: relative; */
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #C0C0C0;
+    padding: 12px;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+header h1 {
+    font-size: 36px;
+    /* color: #000000; Blanco */
+    /* margin-bottom: 10px; */
+    font-family: 'Miltonian Tattoo', cursive;
+    margin: 0;
+}
+
+header p {
+    font-size: 24px;
+    color: #D69BB2; /* Color de Destacado */
+}
+header i {
+    color: #C0C0C0;
+}
+
+nav {
+    /* Estilos para el menú de navegación si lo tienes */
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#home{
+    height: calc(100vh - 65px);
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home img{
+    width: 300px;
+    height: 300px;
+    /* margin: 0 auto; */
+}
+
+#home button{
+    width: 280px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    font-size: 36px;
+    font-family: 'Miltonian Tattoo', cursive;
+    padding: 8px;
+}
+
+#welcome{
+    height: 100vh;
+    display: flex;
+    /* padding: 40px; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 100px; */
+}
+
+#welcome div{
+    width: 44%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#welcome h2{
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 48px;
+    margin: 0;
+}
+
+#welcome h3{
+    color: #800000;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+
+#welcome p{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#welcome img{
+    width: 500px;
+    height: 600px;
+}
+
+#map {
+    /* width: 100%; */
+    /* padding-left: 2%; */
+}
+
+#map h2{
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 48px;
+    padding-left: 2%;
+}
+
+#map div{
+    width: 100%;
+    text-align: center;
+}
+
+/* #galery{
+    width: 100%;
+} */
+
+#galery h2{
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 48px;
+    padding-left: 2%;
+}
+
+#galery div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#galery img{
+    margin: 0 auto;
+}
+
+#blog h2{
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 48px;
+    padding-left: 2%;
+}
+
+#blog div{
+    width: 1100px;
+    height: 930px;
+    margin: 0 auto;
+    background-image: url(./assets/Cuidados.png);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #000000; /* Fondo negro */
+    color: #C0C0C0; /* Plata */
+}
+
+/* Estilos para enlaces (links) si los tienes */
+a {
+    color: #800000; /* Rojo Sangre para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gallery_2{
+    width: 100%;
+    height: 800px;
+    text-align: -webkit-center;
+}
+.container{
+    margin-top: 150px;
+    position: relative;
+    display: grid;
+    /* place-items: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    height: 500px;
+    background: #000000;
+    transition: .25s;
+  }
+  
+  .container .box{
+    position: relative;
+    background: var(--img);
+    background-position: center;
+    background-size: cover;
+    transition: .25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(0) brightness(1.25);
+  }
+  
+  .container:hover .box{
+    filter: grayscale(1);
+  }
+  
+  .container .box:hover{
+    filter: grayscale(0) brightness(1.25);
+  }
+  
+  .container:has(.one:hover){
+    grid-template-columns: 2fr .5fr .5fr .5fr .5fr;
+  }
+  
+  .container:has(.two:hover){
+    grid-template-columns: .5fr 2fr .5fr .5fr .5fr;
+  }
+  
+  .container:has(.three:hover){
+    grid-template-columns: .5fr .5fr 2fr .5fr .5fr;
+  }
+  
+  .container:has(.four:hover){
+    grid-template-columns: .5fr .5fr .5fr 2fr .5fr;
+  }
+  
+  .container:has(.five:hover){
+    grid-template-columns: .5fr .5fr .5fr .5fr 2fr;
+  }
+  
+  .container .box::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000000, transparent, transparent, transparent, #000000);
+  }
+  
+  .container .box:nth-child(even){
+    transform: translateY(30px);
+  }
+  
+  .container .box:nth-child(odd){
+    transform: translateY(-30px);
+  }
+  
+  .container .box::after{
+    content: attr(data-text);
+    position: absolute;
+    bottom: -80px;
+    background: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    white-space: nowrap;
+    transition: .5s;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .container .box:hover::after{
+    opacity: 1;
+    visibility: visible;
+  }

@@ -1,0 +1,51 @@
+body{
+   background-image: url(https://img.freepik.com/vector-premium/concepto-corporativo-fondo-abstracto-rojo-azul_67845-1075.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.caja0{
+    background-color: rgb(14, 14, 14);
+    width: 40%;
+    height: 60px;
+    border: solid 4px;
+    border-color: aqua;
+    margin-left: 25%;
+    margin-top: auto;
+    border-end-end-radius: 100px;
+    border-end-start-radius: 100px;
+}
+.caja1,
+.caja2 {
+    background-color: rgb(14, 14, 14);
+    width: 30%;
+    height: 60px;
+    border: solid 4px;
+    border-color: aqua;
+    margin-left: 30%;
+    margin-top: 2%; 
+}
+
+#pr {
+    text-shadow: -1px -1px 0 rgb(246, 240, 240);
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: #FF0000;
+}
+
+#pa {
+    text-shadow: -1px -1px 0 rgb(247, 241, 241);
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: #0000FF;
+}
+
+#pt{
+    text-shadow: -1px -1px 0 rgb(247, 241, 241);
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    color: #0000FF;
+}

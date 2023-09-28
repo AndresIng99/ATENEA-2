@@ -1,0 +1,19 @@
+body{/*agregue fondo para mejor visualizacióm*/
+ background-color: #94849c;
+}
+#p1{/*estilos primer parrafo*/
+font-weight: bold;
+}
+/*
+en esta se utilizo clase para poder llamar 
+ a la etiqueta heredada a
+ */
+.p2 a{
+  color: #FFFF00;
+  font-weight: bold;
+  text-align: center;
+}
+#p3{
+  color: #00008B;
+  font-weight: bold;
+}

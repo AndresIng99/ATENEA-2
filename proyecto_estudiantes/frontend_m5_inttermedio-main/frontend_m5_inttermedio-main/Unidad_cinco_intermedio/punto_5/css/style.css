@@ -1,0 +1,27 @@
+#s1{
+    border-bottom: 2px solid;
+    color: #53ac0e ;
+}
+#s2{
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+#s3{
+    font-size: 30px;
+    font-weight: bold;
+}
+#s4{
+    color: #0000FF;
+    line-height: 2.5;
+    font-weight: bold;
+}
+#s5{
+    border-bottom: 2px solid;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #FF0000
+}
+#s6{
+    color: #FF0000
+    font-weight: bold;
+}

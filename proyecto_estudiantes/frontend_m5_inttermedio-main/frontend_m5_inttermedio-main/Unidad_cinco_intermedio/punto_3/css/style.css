@@ -1,0 +1,258 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #020917;
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a {
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 43px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+h3 {
+    text-align: center;
+    font-size: 43px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+
+h4 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 250px;
+    color: rgba(249, 244, 244, 0.804);
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+
+h6 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: inherit;
+    position: relative;
+    z-index: 2;
+}
+
+#title_1 {
+    text-align: center;
+    margin: 100px 150px;
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: lighter;
+    position: relative;
+    z-index: 2;
+}
+
+#title_2 {
+    text-align: center;
+    font-size: 90px;
+    margin-top: -100px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+/*estilos del header*/
+header {
+    background-color: #081730;
+    height: 100vh;
+    border-left: 150px;
+    border-radius: 0px 0px 1000px 0px;
+}
+
+header .logo_main {
+    height: 100px;
+    margin-left: 120px;
+}
+header .equalizer_header {
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+    top: 12%;
+    right: 15%;
+    z-index: 1;
+}
+
+header .phone_header {
+    height: 75%;
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    right: 12%;
+    filter: drop-shadow(0 12px 12px rgba(0, 0, 0, 0.7));
+}
+
+header .phone_header2 {
+    height: 75%;
+    position: absolute;
+    z-index: 1;
+    top: 32%;
+    left: 12%;
+    filter: drop-shadow(0 12px 12px rgba(0, 0, 0, 0.7));
+}
+
+header nav {
+    padding: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-size: 40px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 9;
+}
+
+header nav li {
+    padding-left: 35px;
+    padding-right: 30px;
+    color: white;
+    list-style: none;
+}
+
+header nav li :hover {
+    padding: 2px;
+    color: #081730;
+    background-color: white;
+    font-size: 60px;
+    /* Cambia el color del borde al hacer hover */
+}
+
+ul {
+    display: inline-flex;
+}
+
+/*estilos tiendas apps, ios  y android*/
+.logos_apps {
+    text-align: center;
+    height: 80px;
+    position: relative;
+    z-index: 2;
+    margin-top: 15px;
+}
+
+.logos_apps img {
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 12px;
+    box-shadow: -7px 22px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
+.logos_apps .google {
+    margin-left: 35px;
+}
+
+/*Sección de servicios*/
+#services {
+    height: 50 dvh;
+    text-align: center;
+
+}
+
+.separador {
+    height: 180px;
+    height: 100%;
+    margin: 60px auto;
+}
+
+.cont_servi {
+    width: 80%;
+    height: 450px;
+    margin: 80px 0px 0px 10%;
+    display: inline-flex;
+}
+
+.uni_serv {
+    width: 25%;
+    height: 90%;
+    margin: 30px;
+}
+
+.uni_serv .box_icon {
+    height: 70px;
+    width: 70px;
+    background: #081730;
+    border-radius: 18px;
+    margin: auto;
+}
+
+.box_icon img {
+    height: 55%;
+    vertical-align: middle;
+    margin: 15% auto;
+}
+#linea{
+    height: 40px; 
+    width: 1500px;
+  float: inherit;
+}
+.uni_serv .sub {
+    font-size: 22px;
+}
+
+.uni_serv p {
+    font-size: 22px;
+    margin: 25px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.uni_serv a {
+    color: #E600FF;
+    position: relative;
+    bottom: 0px;
+}
+
+.firma {
+    font-size: 50px;
+    background-color: #081730;
+    border: solid 2px;
+    border-color: #006eff;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 1%;
+    border-start-start-radius: 100px;
+    border-start-end-radius: 100px;
+    z-index: 9;
+}
+
+#p {
+    color: aqua;
+    text-align: center;
+}
+
+#p a:hover {
+    color: #008cff;
+}

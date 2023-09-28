@@ -1,0 +1,51 @@
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu .menuLink:hover {
+    background: #222;
+}
+
+/* importante esto de abajo  */
+.submenu  {
+    height: 0;
+    overflow: hidden;
+    transition: all .3s;
+}
+.submenu .menuLink {
+    background: #333;
+    padding: 20px;
+}
+
+.mostrar {
+    margin-top: 0;
+}
+
+.container-submenu {
+    display: block;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+
+    .container-submenu {
+        position: relative;
+    }
+    /* en esto es lo que más me importa el submenu */
+    .submenu {
+        position: absolute;
+        top: 60px;
+        width: 200px;
+        overflow: visible;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .container-submenu:hover .submenu {
+        opacity: 1;
+        visibility: visible;
+    }
+}

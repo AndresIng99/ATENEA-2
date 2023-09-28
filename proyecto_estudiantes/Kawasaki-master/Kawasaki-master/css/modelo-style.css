@@ -1,0 +1,34 @@
+:root {
+    --fondo1: #202020;
+    --fondo2: #ebebeb;
+    --fondo3: #d9d9d9;
+    --verde: #2EB000;
+}
+
+body {
+    background-color: #202020;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    position: absolute;
+    background-color: var(--verde);
+    color: var(--fondo1);
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid var(--fondo3);
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    transition: all .8s;
+}
+
+#btn:hover {
+    background-color: var(--fondo3);
+    color: var(--verde);
+    transition: all .8s;
+}

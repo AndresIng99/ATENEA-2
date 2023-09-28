@@ -1,0 +1,17 @@
+/* Estilo general de la tabla*/
+.tabla_1 {
+  background-color: #FFFF00;
+  border-collapse: collapse;
+  border-bottom: dotted #FF0000;
+}
+.tabla_1 th{
+   color:  #FF0000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+}
+.tabla_1 th,td{
+   border: 2px dotted #000000;
+}
+#negrita{
+  font-size: 40px;
+}
