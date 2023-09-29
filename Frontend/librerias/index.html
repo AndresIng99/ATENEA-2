@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://kit.fontawesome.com/27010df775.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>   
+<title>Librerias de FrontEnd</title>
+</head>
+<body>
+    <a-scene>
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+        <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky color="#ECECEC"></a-sky>
+      </a-scene>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+    <script>
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collapsible Group Item #1
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/bmw-s1000rr-2023-estatica-4.jpeg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/GSX S750ZA Azul.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/Panigale-V4-S-MY20-Red-02-Gallery-906x510-1.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+    <ul>
+        <li><i class="bi bi-android"></i></li>
+        <li><i class="bi bi-facebook"></i></li>
+        <li><i class="bi bi-xbox"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+    </ul>
+    <h1 class="display-4">Hola mundo</h1>
+    <img src="img/GSX S750ZA Azul.png" class="img-fluid" alt="Responsive image">
+    <figure class="figure">
+        <img src="img/GSX S750ZA Azul.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+        <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+      </figure>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/GSX S750ZA Azul.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="img/GSX S750ZA Azul.png" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">Last updated 3 mins ago</p>
+        </div>
+      </div>
+
+
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+
+
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="list-example" class="list-group">
+    <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+  </div>
+  <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+    <h4 id="list-item-1">Item 1</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, non vitae fuga natus aliquid saepe, illo nulla, eaque aliquam sapiente excepturi nostrum unde ratione doloribus rem! Libero quibusdam a beatae voluptatem animi id maiores molestias ducimus incidunt quasi, fuga repudiandae ipsa corrupti iusto ratione atque tempora est voluptatibus impedit eum sapiente? Aliquam doloribus sit magni. Aliquid harum adipisci ullam omnis magni possimus perferendis fugiat sint nobis error nulla eum obcaecati, commodi voluptatibus dolore eius praesentium quos vero deserunt nisi dolor officia assumenda. Quos ab consectetur quisquam delectus a at expedita odit ipsam nisi totam nam repellat, dolorem omnis pariatur doloribus beatae atque inventore fuga nulla aperiam odio porro facilis ex esse? Omnis tempore similique fugiat? Et, laboriosam molestiae. Quos voluptas tempore voluptatibus perferendis cupiditate ea similique quam libero quia, dicta nemo nesciunt odio ad neque sunt, sint nostrum incidunt ratione dolores reiciendis blanditiis iste? Suscipit necessitatibus a, in autem voluptates facere voluptate ea nihil? Ratione tenetur nisi eum adipisci rem omnis illo facilis neque, tempora aliquid commodi placeat aperiam magni aspernatur quasi quaerat expedita enim vero? Recusandae officiis, beatae aliquam non voluptatem voluptates accusamus excepturi aperiam natus quae quasi cumque minus illo earum aspernatur deserunt in, illum quisquam corrupti. Nisi assumenda nam nihil maxime nemo tenetur minus excepturi voluptas. Suscipit ex ipsum quis iusto expedita totam vel quidem. Quibusdam nostrum, est perspiciatis deserunt cum ad nulla accusantium fuga facilis asperiores maiores exercitationem adipisci corporis tenetur beatae. Maxime cum, dolorum dicta repellendus corporis provident quae culpa fugit veritatis ullam nesciunt excepturi hic fugiat aperiam nobis adipisci nisi amet! Illo, at tenetur quod eius maiores provident suscipit iure repudiandae sed. Autem deleniti ut error omnis assumenda ab fuga, distinctio minus nam sunt necessitatibus soluta rerum libero cum maxime accusamus ad dolor. Modi deserunt deleniti cum fugit earum delectus nisi? Aliquam eveniet illo suscipit. Molestias eligendi ipsum, incidunt recusandae vel cupiditate consequuntur quisquam blanditiis numquam quas perspiciatis harum dicta iusto dolorum maiores asperiores quasi fugiat quis provident modi cum aliquam perferendis! Aperiam facilis eveniet neque natus exercitationem a amet nulla! Voluptatum quis eaque a cumque autem facere. Cupiditate consequatur odit nemo numquam explicabo dolores ipsum praesentium nam sunt molestias obcaecati aperiam veritatis hic commodi vero, aut suscipit optio officia id perferendis labore ea expedita nihil. Consectetur explicabo aliquam ratione aspernatur natus et dicta fugit velit culpa. Tenetur vero in possimus impedit praesentium itaque fugiat adipisci provident assumenda nihil voluptates, ullam odit, nostrum facilis?</p>
+    <h4 id="list-item-2">Item 2</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis placeat adipisci quas fuga sed beatae fugiat molestias et quidem ipsa aliquid voluptate, nulla suscipit ducimus, harum impedit iste iusto odio repellendus cumque eum excepturi eveniet pariatur saepe? In, expedita consequatur corrupti amet quae nesciunt porro corporis quas minima adipisci modi maiores nam doloribus totam placeat a illum earum quos id similique laudantium commodi voluptates eaque? Vero adipisci necessitatibus veniam minus, id commodi placeat debitis perferendis animi nesciunt dolorum! Repellat, sequi! Natus voluptates, laudantium consequuntur blanditiis mollitia dicta ducimus iusto ad dignissimos fugit ipsam unde, enim nemo ullam officia ratione magni quis. Mollitia sapiente ab quis dolores tenetur. A natus, laboriosam fuga modi recusandae odio reiciendis eius corrupti voluptas! Suscipit aliquam temporibus voluptate ad eum omnis reiciendis, nemo quae! Cum necessitatibus incidunt itaque, laboriosam commodi magni voluptatem mollitia repudiandae quam, velit non adipisci dignissimos obcaecati explicabo? Repudiandae dolorum, beatae nobis repellat laboriosam quia quae est, labore accusantium dolores repellendus assumenda quis asperiores? Non, corrupti ea, aperiam optio doloribus aliquam officia saepe esse pariatur earum voluptatibus tempore totam ad dolor ratione maiores distinctio, fuga alias libero eveniet eligendi sint ducimus! Animi quasi perferendis cumque ducimus beatae veritatis eos dolorum voluptatem ullam laudantium.</p>
+    <h4 id="list-item-3">Item 3</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto et molestias voluptatum distinctio quidem doloremque rerum inventore fuga eaque aspernatur, corrupti nulla ipsam? Natus ducimus quia ea, inventore ullam illo mollitia ad nulla dolorem repellendus. Dolorem totam rem perspiciatis magni cum laboriosam numquam placeat harum provident enim nesciunt aliquam eos, labore quo vero porro corrupti ex beatae deleniti ut. Nesciunt ipsam recusandae tempore obcaecati quisquam quas dignissimos? Dignissimos sequi saepe provident voluptatum adipisci repudiandae necessitatibus consequuntur in, commodi doloremque.</p>
+    <h4 id="list-item-4">Item 4</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto provident perferendis necessitatibus voluptas deserunt quis aperiam assumenda corporis labore quia asperiores sequi vel minus, perspiciatis incidunt a dolores praesentium dicta, odio maxime autem libero ad. Maxime voluptas quo repellendus, beatae quam necessitatibus fugiat quod culpa fuga ipsa assumenda nam eius et omnis consectetur magni nobis obcaecati ipsam provident similique mollitia placeat laudantium ut temporibus. Numquam laboriosam nemo placeat? Dolores sit consequatur beatae? Quibusdam dolores aliquid quasi a, laboriosam quidem quos modi quam odio deleniti optio fuga esse ducimus nobis dolor iusto nesciunt eius tempore, id, assumenda cupiditate cum? Consequatur, voluptas.</p>
+  </div>
+</body>
+</html>

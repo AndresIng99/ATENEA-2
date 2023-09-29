@@ -1,0 +1,338 @@
+/*tipografia*/
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 150px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header img{
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 60px;
+}
+header nav ul{
+    display: inline-flex;
+    position: absolute;
+    right: 4%;
+}
+header nav ul li{
+    display: inline-flex;
+    font-size: 30px;
+}
+
+header nav ul li a{
+    display: inline-flex;
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color:#B2DAFA;}
+
+header nav ul .search{
+    border-right: solid 2px black;
+}
+
+header nav ul .fa-bars {
+    color: #47a6f3;
+}
+
+/*style main section*/
+
+#main-contain{
+    width: 100%;
+    height: 785px;
+    display: flex;
+
+    /*CONTENEDOR ROSA*/
+}
+
+ #main-contain .clothe{
+     width: 45%;
+     min-width: 500px;
+     height: 100%;
+     text-align: center;
+     background-color: #FFD1DC;
+     flex-direction: column;
+ }
+
+ #main-contain .clothe img{
+
+      width: 50%;
+      height: auto;
+      margin-top: 10%;
+      background-color: #ffff;
+      border-radius: 100%;
+      max-width: 500px;
+      min-width: 440px;
+ }
+
+ #main-contain .button_ra  {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    display: inline-flex;
+    border: none;
+ }
+
+ #main-contain .button_ra .ra {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    color: #0a0909;
+    cursor: pointer;
+    margin-left: 40%;
+    border-radius: 100%;
+    transition: all 0.4s;
+ }
+ #main-contain .button_ra .ra:hover {
+    transition: all 0.4s;
+    border: 1px solid;
+    background-color: #fcf75e;
+    color:black;
+
+ } 
+
+    /*CONTENEDOR AZUL*/
+
+ #main-contain .info{
+     width: 55%;
+     height: 100%;
+     background-color: #B2DAFA;
+ }
+
+ #main-contain .info h1 {
+    font-size: 50px;
+    margin-left: 7%;
+    margin-top: 12%;
+    font-weight: 200;
+ }
+ #main-contain .info h2 {
+    font-size: 60px;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-weight: 300;
+ } 
+ #main-contain .info p {
+    margin-left: 10%;
+    font-size: 25px;
+    color: #8D8C8C;
+    font-weight: 200;
+ }
+ #main-contain .info h3 {
+    margin-left: 10%;
+   margin-top:5%; 
+   font-size: 25px;
+   color: #8D8C8C;
+    font-weight: 200;
+ }
+
+
+ /*BOTONES PARA LA COMPRA Y LAS TALLAS*/
+
+
+ #main-contain .info .buttons_talla{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    display: inline-flex;
+    border: none;
+
+}
+
+    #main-contain .info .buttons_talla .xs {
+        border: none;
+        height: 40px;
+        width: 40px;    
+        margin: 1%;
+        background-color: #D9D9D9;
+        color: #8D8C8C;
+        transition: all 0.4s;
+        border-radius: 100px; 
+        cursor: pointer;
+    }
+    #main-contain .info .buttons_talla .xs:hover {
+        border: 1px solid;
+        background-color: #fcf75e;
+        color:black;
+        transition: all 0.4s;
+    }
+
+
+    #main-contain .info .buttons_talla .s {
+        border: none;
+        height: 40px;
+        width: 40px;  
+        border-radius: 100px;    
+        margin: 1%;
+        background-color: #D9D9D9;
+        color: #8D8C8C;
+        transition: all 0.4s;
+        cursor: pointer;
+     }
+     #main-contain .info .buttons_talla .s:hover {
+        border: 1px solid;
+        background-color: #fcf75e;
+        color:black;
+        transition: all 0.4s;
+    }
+
+
+    #main-contain .info .buttons_talla .m {
+        border: none;
+        height: 40px;
+        width: 40px;     
+        border-radius: 100px;
+        margin: 1%;
+        background-color: #D9D9D9;
+        color: #8D8C8C;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+    #main-contain .info .buttons_talla .m:hover {
+        border: 1px solid;
+        background-color: #fcf75e;
+        color:black;
+        transition: all 0.4s;
+    }
+
+
+    #main-contain .info .buttons_talla .l {
+        border: none;
+        height: 40px;
+        width: 40px;  
+        border-radius: 100px;   
+        margin: 1%;
+        background-color: #D9D9D9;
+        color: #8D8C8C;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+    #main-contain .info .buttons_talla .l:hover {
+        border: 1px solid;
+        background-color: #fcf75e;
+        color:black;
+        transition: all 0.4s;
+    }
+
+
+    #main-contain .info .buttons_talla .xl {
+        border: none;
+        height: 40px;
+        width: 40px;    
+        border-radius: 100px; 
+        margin: 1%;
+        background-color: #D9D9D9;
+        color: #8D8C8C;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+    #main-contain .info .buttons_talla .xl:hover {
+        border: 1px solid;
+        background-color: #fcf75e;
+        color:black;
+        transition: all 0.4s;
+    }
+
+
+    #main-contain .info .buttons_talla .xxl {
+        border: none;
+        height: 40px;
+        width: 40px;  
+        border-radius: 100px;   
+        margin: 1%;
+        background-color: #D9D9D9;
+        color: #8D8C8C;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+    #main-contain .info .buttons_talla .xxl:hover {
+        border: 1px solid;
+        background-color: #fcf75e;
+        color:black;
+        transition: all 0.4s;
+    }
+
+
+    #main-contain .info .buttons_talla .cotizar {
+        border: none;
+        height: 83px;
+        width: 350px;
+        font-size: 25px;  
+        border-radius: 100px;
+        margin-left: 3%;
+        background-color: #8FEF99;
+        align-items: center;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+    #main-contain .info .buttons_talla .cotizar:hover {
+        border: 1px solid;
+        background-color: #ffffff;
+        color:#8FEF99;
+        transition: all 0.4s;
+    }
+
+
+    /*redes sociales*/
+    /*social media*/
+
+     .social_media{
+        width: 200px;
+        height: auto;
+        position: fixed;
+        bottom: 15px;
+        padding: 10px 0px;
+    }
+    .social_media i{
+        font-size: 30px;
+        color: #000000c9;
+        margin-left: 11%;
+    }
+
+    /*responsive design*/
+    
+    @media (max-width: 1080px){    
+    #main-contain {
+        width: 100%;
+        display: block;
+    }
+ #main-contain .clothe {
+       width: 100%;
+       align-items: center;
+       text-align: center;
+    }
+ #main-contain   .info {
+        width: 100%;
+        height: 100%;
+    }
+    .ig {
+        margin-left: 5%;
+    }
+    .fb {
+        margin-left: 10%;
+    }
+    
+    .tiktok {
+        bottom: 5%;
+        margin-left: 15%;
+}
+    }
