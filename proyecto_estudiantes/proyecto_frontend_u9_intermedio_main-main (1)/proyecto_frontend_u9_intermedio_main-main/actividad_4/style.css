@@ -1,0 +1,16 @@
+/* estilos parrafo color rojo*/
+#rojo {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: #FF0000;
+    font-weight: bold;
+}
+/*estilos parrafo color  azul*/
+#azul {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: #0000FF;
+    font-weight: bold;
+} 
