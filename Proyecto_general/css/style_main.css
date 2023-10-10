@@ -1,0 +1,254 @@
+/*recursos import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+
+/*font-family: 'Roboto Serif', serif;*/
+
+/* Menu resposive */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Serif', serif;
+}
+
+:root {
+  --nav-bg: #03000e;
+  --main-clr: dodgerblue;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    background: url(../img/background2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  box-shadow: var(--nav-shadow);
+}
+
+nav img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+  --padding: 20px;
+  --font-size: 17px;
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size);
+  overflow-y: hidden;
+  transition: 1s cubic-bezier(.68,-0.55,.27,10.55);
+  box-shadow: var(--nav-shadow);
+}
+
+nav ul li {
+  padding: var(--padding);
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 1.7px;
+  border-radius: 99px;
+  background: var(--main-clr);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+nav .menu {
+  width: 22px;
+  height: 16px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin: 20px;
+}
+
+nav .menu span {
+  width: 100%;
+  height: 2px;
+  border-radius: 99px;
+  background: #fff;
+  transition: 0.3s ease;
+  transform-origin: left;
+}
+
+nav .menu.active span {
+  background: var(--main-clr);
+}
+
+nav .menu.active span:nth-child(1) {
+  transform: rotate(40deg);
+}
+
+nav .menu span:nth-child(3) {
+  transform-origin: left;
+}
+
+nav .menu.active span:nth-child(3) {
+  transform: rotate(-40deg);
+}
+
+nav .menu.active span:nth-child(2) {
+  transform: scale(0);
+}
+
+@media (max-width: 4000px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav ul {
+    --height: 0px;
+
+    flex-direction: column;
+    background: var(--nav-bg);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 56px;
+    height: var(--height);
+    transition: 1s cubic-bezier(.68,-0.55,.27,1.55);
+  }
+  nav ul.active {
+    --height: calc(
+      (((var(--padding) * 2) + (var(--font-size) * 1.5))) * var(--childenNumber)
+    );
+    /*   (Block Level Padding + The Font Size) * The Number of Children   */
+    
+    
+    transition: 1s ease;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li a {
+    width: 100%;
+    text-transform: capitalize;
+  }
+}
+.filter{
+    position: static;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(107.32deg, rgba(0, 0, 0, 0.7) 0.46%, rgba(32, 45, 57, 0.7) 50.53%, rgba(45, 123, 114, 0.7) 99.6%);
+    z-index: -1;
+}
+
+/*Estilos de división de información (título, descripción, entre otros)*/
+
+.general_info{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 500px;
+    height: 480px;
+}
+.general_info h1{
+    font-weight: 500;
+    color: #2AFEBB;
+    font-size: 100px;
+}
+.general_info h2{
+    font-weight: 500;
+    color: #33A28F;
+    font-size: 35px;
+}
+.general_info p{
+    text-align: justify;
+    font-weight: 300;
+    padding: 18px 0px;
+    color: #fff;
+    word-spacing: 8px;
+    line-height: 25px;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.general_info .btn_register, .general_info .btn_login{
+    width: 160px;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 500;
+    border-style: none;
+    margin: 10px 0px 10px 15px;
+    float: right;
+    transition: all 1s;
+} 
+.general_info .btn_register{
+    color: #2D7B72;
+    background-color: #FFF;
+}
+.general_info .btn_register:hover, .general_info .btn_login:hover{
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(249, 249, 249, 0.75);
+    transition: all 1s;
+}
+.general_info .btn_login{
+    color: #FFF;
+    background-color: #2D7B72;
+}
+/*Estructura de secciones*/
+.structure_one{
+    margin: 0px 10%;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+}
+.structure_one .info_section, .structure_one .illustration_section{
+    width: 50%;
+    height: 100%;
+}
+.structure_one .illustration_section{
+    text-align: center;
+    margin-top: 150px;
+}
+.info_section, .illustration_section img{
+    width: 80%;
+    height: auto;
+}
+.info_section .title{
+    width: 100%;
+    height: 60px;
+    margin: 150px 0px;
+    border-bottom: solid 1px #1e1e1e8b;
+}
+.info_section .title h3{
+    font-size: 40px;
+    color: #2D7B72;
+}
+.info_section p{
+    text-align: justify;
+    font-size: 18px;
+    word-spacing: 8px;
+    line-height: 25px;
+    color: #606060;
+}
