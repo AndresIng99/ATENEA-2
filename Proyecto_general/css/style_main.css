@@ -15,12 +15,12 @@
 }
 
 :root {
-  --nav-bg: #03000e;
+  --nav-bg: #000000b6;
   --main-clr: dodgerblue;
 }
 header{
     width: 100%;
-    height: 100vh;
+    height: 973px;
     z-index: -2;
     background: url(../img/background2.jpg) no-repeat;
     background-size: cover;
@@ -33,6 +33,13 @@ header nav {
   position: absolute;
   width: 100%;
   box-shadow: var(--nav-shadow);
+}
+.filter{
+  position: static;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(107.32deg, rgba(0, 0, 0, 0.7) 0.46%, rgba(32, 45, 57, 0.7) 50.53%, rgba(45, 123, 114, 0.7) 99.6%);
+  z-index: -1;
 }
 
 nav img {
@@ -51,6 +58,7 @@ nav ul {
   overflow-y: hidden;
   transition: 1s cubic-bezier(.68,-0.55,.27,10.55);
   box-shadow: var(--nav-shadow);
+
 }
 
 nav ul li {
@@ -124,10 +132,11 @@ nav .menu.active span:nth-child(2) {
   nav .menu {
     display: flex;
   }
-
+#menu{
+  z-index: 99;
+}
   nav ul {
     --height: 0px;
-
     flex-direction: column;
     background: var(--nav-bg);
     position: absolute;
@@ -143,7 +152,10 @@ nav .menu.active span:nth-child(2) {
     );
     /*   (Block Level Padding + The Font Size) * The Number of Children   */
     
-    
+    height: 100vh;
+    top: 0;
+    padding-top: 20%;
+    z-index: 2;
     transition: 1s ease;
   }
 
@@ -153,15 +165,14 @@ nav .menu.active span:nth-child(2) {
   }
   nav ul li a {
     width: 100%;
+    font-size: 28px;
     text-transform: capitalize;
+    transition: all 1s;
   }
-}
-.filter{
-    position: static;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(107.32deg, rgba(0, 0, 0, 0.7) 0.46%, rgba(32, 45, 57, 0.7) 50.53%, rgba(45, 123, 114, 0.7) 99.6%);
-    z-index: -1;
+  nav ul li a:hover {
+    color: #2AFEBB;
+    transition: all 1s;
+  }
 }
 
 /*Estilos de división de información (título, descripción, entre otros)*/
@@ -220,7 +231,7 @@ nav .menu.active span:nth-child(2) {
 .structure_one{
     margin: 0px 10%;
     width: 80%;
-    height: 70vh;
+    height: auto;
     display: flex;
 }
 .structure_one .info_section, .structure_one .illustration_section{
@@ -232,13 +243,22 @@ nav .menu.active span:nth-child(2) {
     margin-top: 150px;
 }
 .info_section, .illustration_section img{
-    width: 80%;
+    width: 70%;
     height: auto;
+}
+.illustration_section .marca_agua{
+  width: 40%;
+  position: relative;
+  margin-left: 50%;
+  height: auto;
+  z-index: -99;
+  margin-top: -80px;
 }
 .info_section .title{
     width: 100%;
-    height: 60px;
-    margin: 150px 0px;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 150px 0px 80px 0px;
     border-bottom: solid 1px #1e1e1e8b;
 }
 .info_section .title h3{
@@ -251,4 +271,186 @@ nav .menu.active span:nth-child(2) {
     word-spacing: 8px;
     line-height: 25px;
     color: #606060;
+}
+/*Diseño del pie de pagina*/
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #202D39;
+  padding-bottom: 50px;
+}
+footer .logo{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+footer .logo img{
+  height: 100%;
+  width: auto;
+}
+footer .contain-main-footer{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15px;
+  display: inline-flex;
+  height: auto;
+}
+footer .contain-main-footer .contact,
+footer .contain-main-footer .regulatory,
+footer .contain-main-footer .location
+{
+  width: 33%;
+  height: 350px;
+  padding: 0px 2.5%;
+}
+footer .contain-main-footer  ul{
+  list-style: none;
+  padding-bottom: 20px;
+}
+footer .contain-main-footer li i,
+footer .contain-main-footer{
+  color: #fff;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+footer .contain-main-footer li{
+  padding: 5px 20px 5px 20px;
+}
+footer .contain-main-footer .regulatory{
+  border-right: 1px solid #FFF;
+  border-left: 1px solid #FFF;
+}
+footer .copy-right{
+  margin-top: 50px;
+  width: 100%;
+  height: 35px;
+  background-color: #FFF;
+  opacity: 0.87;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  color: #202D39;
+}
+footer .contain-main-footer h4{
+  color: #33A28F;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+footer .contain-main-footer .location iframe{
+  width: 90%;
+  margin: 0px 5%;
+  border: none;
+  border-radius: 15px;
+  height: 200px;
+}
+footer .contain-main-footer .location .social-media{
+  width: 90%;
+  display: inline-flex;
+  height: 25px;
+  color: #33A28F;
+  font-size: 20px;
+  margin: 25px 5%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+@media (max-width: 1024px) {
+  /*responsive header*/
+    .general_info{
+      left: 15%;
+      width: 70%;
+      height: auto;
+      text-align: center;
+    }
+    .general_info h1{
+      font-size: 80px;
+    }
+    .general_info p{
+        text-align: center;
+    }
+    .general_info .btn_register, .general_info .btn_login{
+      float: none;
+    } 
+
+    /*resposive sections*/
+    .structure_one{
+      margin: 0px 15%;
+      width: 70%;
+      height: auto;
+      display: inline-flex;
+      flex-direction: column;
+    }
+    .reverse{
+      flex-direction: column-reverse;
+    }
+    .structure_one .info_section, .structure_one .illustration_section{
+      width: 100%;
+      height: 100%;
+    }
+    .info_section .title{
+      margin: 80px 0px 40px 0px;
+    }
+ /*resposive footer*/
+
+    footer .contain-main-footer{
+      width: 70%;
+      margin-left: 15%;
+      display: block;
+    }
+    footer .contain-main-footer .contact,
+    footer .contain-main-footer .regulatory,
+    footer .contain-main-footer .location
+    {
+      width: 100%;
+      height: auto;
+      padding: 20px 2.5%;
+      text-align: center;
+    }
+    footer .contain-main-footer .regulatory{
+      border-right: none;
+      border-left: none;
+      border-top: 1px solid #FFF;
+      border-bottom: 1px solid #FFF;
+    }
+    
+}
+
+
+@media (max-width: 600px) {
+  /*responsive header*/
+  .general_info{
+    top: 300px;
+    left: 5%;
+    width: 90%;
+  }
+  .general_info h1{
+    font-size: 70px;
+  }
+
+  
+    /*resposive sections*/
+    .structure_one{
+      margin: 0px 5%;
+      width: 90%;
+      text-align: center;
+    }
+    .structure_one .illustration_section {
+      margin-top: 40px;
+    }
+    .info_section p {
+      text-align: center;
+      color: #868686;
+  }
+
+  /*resposive footer*/
+  footer .contain-main-footer{
+    width: 90%;
+    margin-left: 5%;
+  }
+  footer .copy-right{
+    height: 30px;
+    font-size: 10px;
+  }
 }
