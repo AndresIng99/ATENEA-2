@@ -204,7 +204,7 @@ nav .menu.active span:nth-child(2) {
     opacity: 0.8;
     font-size: 16px;
 }
-.general_info .btn_register, .general_info .btn_login{
+.btn_register, .btn_login{
     width: 160px;
     height: 55px;
     font-size: 18px;
@@ -215,15 +215,15 @@ nav .menu.active span:nth-child(2) {
     float: right;
     transition: all 1s;
 } 
-.general_info .btn_register{
+.btn_register{
     color: #2D7B72;
     background-color: #FFF;
 }
-.general_info .btn_register:hover, .general_info .btn_login:hover{
+.btn_register:hover, .btn_login:hover{
     -webkit-box-shadow: 0px 0px 28px 0px rgba(249, 249, 249, 0.75);
     transition: all 1s;
 }
-.general_info .btn_login{
+.btn_login{
     color: #FFF;
     background-color: #2D7B72;
 }
@@ -355,6 +355,27 @@ footer .contain-main-footer .location .social-media{
   justify-content: space-around;
 }
 
+/*ESTILOS DEL FORMULARIO*/
+.modal-dialog{
+  width: 70%;
+  margin-top: 150px;
+  background-color: #ffffffc5;
+  max-width: none;
+  border-radius: 15px;
+}
+.modal .modal-title{
+  font-size: 30px;
+  color: #2D7B72 !important;
+  text-align: center !important;
+} 
+.modal-header{
+  display: block;
+  text-align: center !important;
+}
+.modal .close{
+  margin-top: -60px;
+}
+
 
 @media (max-width: 1024px) {
   /*responsive header*/
@@ -370,7 +391,7 @@ footer .contain-main-footer .location .social-media{
     .general_info p{
         text-align: center;
     }
-    .general_info .btn_register, .general_info .btn_login{
+    .btn_register, .btn_login{
       float: none;
     } 
 
