@@ -1,3 +1,16 @@
+<?php
+if (isset($_GET['status'])) {
+    if ($_GET['status'] == 1) {
+        echo '<script>alert("registro éxitoso");</script>';
+    }
+    if ($_GET['status'] == 2) {
+        echo '<script>alert("El usuario ya existe");</script>';
+    }
+    if ($_GET['status'] == 3) {
+        echo '<script>alert("Acceso denegado");</script>';
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,9 +36,8 @@
             <div>
               <ul id="nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
               </ul>
             </div>
             <div class="menu" id="menu">
@@ -48,8 +60,8 @@
                 de ahorro.
             </p>
 
-            <button type="button" class="btn_register btn btn-primary" data-toggle="modal" data-target="#register_modal">Registrate</button>
-            <button class="btn_login">Ingresa</button>
+            <button type="button" class="btn_register" data-toggle="modal" data-target="#register_modal">Registrate</button>
+            <button class="btn_login" data-toggle="modal" data-target="#login_modal">Ingresa</button>
           </div>
     </header>
 
@@ -72,7 +84,7 @@
             </button>
             </div>
             <div class="modal-body">
-                <form action="back/registro.php" method="POST">
+                <form action="back/register.php" method="POST">
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="inputnombres">Nombres</label>
@@ -115,6 +127,36 @@
 
 
 
+    <!-- Modal de Login-->
+    <div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="login_modalLabel">Inicio de Sesión</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form action="back/login.php" method="POST">
+                      <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label for="inputnumero_id">Número de Identificación (usuario)</label >
+                          <input type="text" class="form-control" name="id_person" id="inputnumero_id" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputcontra">Contraseña</label>
+                          <input type="password" class="form-control" name="pass" id="inputcontra" required>
+                        </div>
+                      </div>
+                      <button name="login_btn" type="submit" class="btn_login">Ingresa</button>
+                  </form>
+            </div>
+                
+        </div>
+        </div>
+    </div>
+
 
 
 
@@ -124,7 +166,7 @@
 
 
     <!--SECCION DE Planeación presupuestal del mes-->
-    <section class="structure_one">
+    <section class="structure_one" id="services">
         <div class="info_section">
             <div class="title">
                 <h3>Planeación presupuestal del mes</h3>
@@ -202,7 +244,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="contacto">
         <div class="logo">
             <img src="img/logo_blanco.png" alt="">
         </div>
