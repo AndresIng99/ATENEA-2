@@ -72,38 +72,39 @@
             </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form action="back/registro.php" method="POST">
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="inputEmail4">Nombres</label>
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="Digite sus nombres">
+                        <label for="inputnombres">Nombres</label>
+                        <input type="text" class="form-control" name="names" id="inputnombres" placeholder="Digite sus nombres" required>
                       </div>
                       <div class="form-group col-md-6">
-                        <label for="inputPassword4">Apellidos</label>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="Digite sus Apellidos">
+                        <label for="inputapellidos">Apellidos</label>
+                        <input type="text" class="form-control" name="lastname" id="inputapellidos" placeholder="Digite sus Apellidos" required>
                       </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                          <label for="inputCity">Fecha de Nacimiento</label>
-                          <input type="date" class="form-control" id="inputCity">
+                          <label for="inputfecha_nacimiento">Fecha de Nacimiento</label>
+                          <input type="date" class="form-control" name="birth" id="inputfecha_nacimiento" required>
                         </div>
                         <div class="form-group col-md-6">
-                          <label for="inputState">Número de Identificación (usuario)</label>
-                          <input type="text" class="form-control" id="inputCity">
+                          <label for="inputnumero_id">Número de Identificación (usuario)</label >
+                          <input type="text" class="form-control" name="id_person" id="inputnumero_id" required>
                         </div>
                       </div>
                       <div class="form-row">
                         <div class="form-group col-md-6">
-                          <label for="inputCity">Correo Electrónico</label>
-                          <input type="email" class="form-control" id="inputCity">
+                          <label for="inputemail">Correo Electrónico</label>
+                          <input type="email" class="form-control" name="email" id="inputemail" required>
                         </div>
                         <div class="form-group col-md-6">
-                          <label for="inputState">Contraseña</label>
-                          <input type="password" class="form-control" id="inputCity">
+                          <label for="inputcontra">Contraseña</label>
+                          <input type="password" class="form-control" name="pass" id="inputcontra" required>
                         </div>
                       </div>
-                      <button type="submit" class="btn_login">Registrate</button>
+                      <button name="register_btn" type="submit" class="btn_login">Registrate</button>
+                      <button type="reset" class="btn_register">Limpiar</button>
                   </form>
             </div>
                 
