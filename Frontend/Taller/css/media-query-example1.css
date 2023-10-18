@@ -1,0 +1,141 @@
+/*tamaño de caja toda la pagina*/
+
+html {
+
+    box-sizing: border-box;
+  
+  }
+  
+  /*estios generales aplicados a toda la pagina*/
+  
+  *,
+  
+  *:before,
+  
+  *:after {
+  
+    box-sizing: inherit;
+  
+  }
+  
+  /*fuentes*/
+  
+  body {
+  
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+  
+    margin: 0 3%;
+  
+  }
+  
+   
+  
+  h1 {
+  
+    font-size: 1.8em;
+  
+    margin: .9em 0 0 0;
+  
+  }
+  
+   
+  
+  h2 {
+  
+    font-size: 1.5em;
+  
+    margin: 1.5em 0 0 0;
+  
+  }
+  
+   
+  
+  img {
+  
+    max-width: 100%;
+  
+  }
+  
+  /*estilos recuadros imagenes*/
+  
+  figure {
+  
+    background: black;
+  
+    border-radius: 5px;
+  
+    color: white;
+  
+    margin: 0 0 25px 0;
+  
+    padding: 10px;
+  
+    text-align: center;
+  
+  }
+  
+   
+  
+  figcaption {
+  
+    font-size: .8em;
+  
+  }
+  
+  /*responsive de la pagina
+  
+  genera cambio de fondo de color y otros estilos
+  
+  dependiendo de la resolucsion manejada
+  
+  */
+  
+  @media screen and (min-width: 794px) {
+  
+    body {
+  
+      background: rgba(0, 0, 255, .2);
+  
+      margin: 25px 6%;
+  
+    }
+  
+   
+  
+    figure {
+  
+      float: left;
+  
+      width: 45%;
+  
+      margin-right: 4.5%;
+  
+    }
+  
+  }
+  
+   
+  
+  @media screen and (min-width: 1020px) {
+  
+    body {
+  
+      background: rgba(0, 255, 0, .2);
+  
+      margin: 25px 10%;
+  
+      max-width: 1130px;
+  
+    }
+  
+   
+  
+    figure {
+  
+      width: 30%;
+  
+      margin-right: 2.5%;
+  
+    }
+  
+  }

@@ -1,0 +1,232 @@
+/* fuentes del sitio
+font-family: 'Kiwi Maru', serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+/*
+codigo del contenedor principal
+*/
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Kiwi Maru', serif;
+}
+header{
+  background-color: #B15CF4;
+  width: 100%;
+  height: 207px; 
+
+}
+.logo {
+  width: 50%;
+  height: 100px;
+  padding: 20px;
+  
+  
+}
+
+.logo img {
+  width: 85px;
+  height: 90px;
+  
+}
+
+/*estilos para el menu de navegacion*/
+
+.menu {
+  position: absolute;
+  right:3%;
+  top: 3%;
+  width: auto;
+  height: 70px;
+
+}
+
+li, ol {
+  list-style: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.menu .nav {
+  display: inline-flex;
+
+
+}
+
+.menu .nav li {
+  background-color:rgba(0, 0, 0, 0.664);
+  color:white;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.menu .nav a {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+
+}
+
+.nav li a:hover {
+  background-color: rgba(27, 27, 27, 0.144);
+}
+
+.nav li:hover {
+  background-color: rgba(27, 27, 27, 0.144);
+}
+
+.menu.nav>li {
+  float: left;
+}
+
+.menu .nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 95px;
+}
+
+.menu li:hover>ul {
+  display: block;
+}
+
+#main-contain {
+  width:100%;
+  height:540px;
+  display:inline-flex ;
+}
+
+/*estilos para el divisor del video*/
+#main-contain .video_software {
+  width: 50%;
+  height: 100%;
+}
+
+#main-contain .video_software iframe {
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+/*estilos para el divisor de imagen*/
+#main-contain .imagen_software {
+  width: 50%;
+  height: 100%;
+}
+#main-contain .imagen_software img {
+  width: 400px;
+  height: 300px;
+  right: 10px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+/* Estilos para el contenedor componentes*/
+#componentes {
+  width: 100%;
+  height: 100vh;
+}
+
+#componentes .texto {
+  width: 100%;
+  height: 15vh;
+}
+
+.texto h1 {
+  color: #B15CF4;
+  text-align: center;
+}
+
+.texto p {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+/*estilos para el divisor imagenes*/
+.contain_imagenes {
+  width: 100%;
+  height: 30%;
+  display: inline-flex;
+  margin: 5%;
+}
+.contain_imagenes .programacion{
+  width: 26%;
+  height:40vh;
+  margin: 10px;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes .programacion img {
+  width: 280px;
+  height: 260px;
+
+}
+
+.contain_imagenes .aplicacion{
+  width: 26%;
+  height:40vh;
+  margin: 10px;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes .aplicacion img {
+  width: 250px;
+  height: 220px;
+}
+
+.contain_imagenes .sistemas{
+  width: 26%;
+  height:40vh;
+  margin: 10px;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+  
+
+}
+
+.contain_imagenes .sistemas img {
+  width: 240px;
+  height: 230px;
+  
+}
+/*Estilos para el footer */
+  footer{
+    width: 100%;
+    height: 20vh;
+    background: #000000;
+  }
+
+/*estilos franja*/
+hr {
+  border: 3px solid #fdf507;
+  border-radius: 5px;
+}
+
+/* estilos para el pie de pagina */
+
+.pie p {
+  text-align: right;
+  color: hsl(0, 0%, 100%);
+}
+
+.pie h5 {
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+
+

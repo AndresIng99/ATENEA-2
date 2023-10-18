@@ -1,0 +1,102 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(81, 81, 81);
+}
+section{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.azul{
+    color: blue;
+}
+.rojo{
+    color: red;
+}
+#punto4 h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#punto5 .p1{
+    color: green;
+    text-decoration: underline;
+}
+#punto5 .p2{
+    color: red;
+    font-weight: bold;
+}
+#punto5 .p3{
+    text-decoration: overline underline;
+}
+#punto5 .p4{
+    font-weight: bold;
+    font-size: 30px;
+}
+#punto5 .p5{
+    font-weight: bold;
+    color: blue;
+}
+#punto5 .p6{
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+#punto6 .diario1{
+    font-size: 25px;
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+}
+#punto6 .diario1:hover{
+    color: black;
+}
+#punto6 .diario2{
+    font-size: 25px;
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+}
+#punto6 .diario2:hover{
+    color: chocolate;
+}
+#punto7 nav{
+    background-color: rgb(219, 159, 169);
+}
+#punto7 ul{
+    display: inline-flex;
+}
+#punto7 li{
+    padding: 15px 10px;
+    list-style: none;
+}
+#punto7 li:hover{
+    background-color: blue;
+}
+#punto7 i{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+#punto8 table{
+    background-color: yellow;
+    border: 1px dotted black;
+    padding: 0px;
+}
+#punto8 table th::first-letter{
+    font-weight: bold;
+}
+#punto8 table th{
+    color: red;
+    font-style: italic;
+    border: none;
+}
+#punto8 table td{
+    padding: 0px;
+    border: 1px dotted black;
+}

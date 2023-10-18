@@ -1,0 +1,309 @@
+/* fuentes del sitio
+font-family: 'Kiwi Maru', serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+/*
+codigo del contenedor principal
+*/
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Kiwi Maru', serif;
+}
+
+header{
+  background-color: #B15CF4;
+  width: 100%;
+  height: 207px; 
+
+}
+
+.logo {
+  width:15px;
+  height: 100px;
+  padding: 20px;
+}
+
+.logo img {
+  width: 85px;
+  height: 90px;
+}
+
+/*estilos para el menu de navegacion*/
+
+.menu {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  width: auto;
+  height: 70px;
+}
+
+li,ol {
+  list-style: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.menu .nav {
+  display: inline-flex;
+
+
+}
+
+.menu .nav li {
+  background-color:rgba(0, 0, 0, 0.664);
+  color:white;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.menu .nav a {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+
+}
+
+.nav li a:hover {
+  background-color: rgba(27, 27, 27, 0.144);
+}
+
+.nav li:hover {
+  background-color: rgba(27, 27, 27, 0.144);
+}
+
+.menu.nav>li {
+  float: left;
+}
+
+.menu .nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 95px;
+}
+
+.menu li:hover>ul {
+  display: block;
+}
+
+/*Estilos para contenedor principal*/
+#main-contain {
+  width: 100%;
+  height: 540px;
+  display: inline-flex;
+}
+
+/*estilos para el divisor del video*/
+#main-contain .video_hardware {
+  width: 50%;
+  height: 100%;
+ 
+}
+
+#main-contain .video_hardware iframe {
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+/*estilos para el divisor de imagen*/
+#main-contain .imagen_hardware {
+  width: 50%;
+  height: 100%;
+  
+}
+
+#main-contain .imagen_hardware img {
+  height: 300px;
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+/* Estilos para el contenedor componentes*/
+#componentes {
+  width: 100%;
+  height: 100vh;
+} 
+
+#componentes .texto {
+  width: 100%;
+  height: 162px;
+}
+
+.texto h1 {
+  color: #B15CF4;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.texto p {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin-top: 2%;
+}
+
+/*estilos para el divisor imagenes*/
+.contain_imagenes {
+  width: 100%;
+  height: 30%;
+  display: inline-flex;
+
+  margin-left: 5%;
+}
+
+.contain_imagenes .cpu {
+  width: 20%;
+  height: 30vh;
+  margin: 10PX;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes .cpu img {
+  width: 180px;
+  height: 180px;
+  
+}
+
+.contain_imagenes .monitor {
+  width: 20%;
+  height: 30vh;
+  margin: 10PX;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes .monitor img {
+  width: 180px;
+  height: 180px;
+}
+
+.contain_imagenes .teclado {
+  width: 20%;
+  height: 30vh;
+  margin: 10PX;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes .teclado img {
+  width: 230px;
+  height: 120px;
+}
+
+.contain_imagenes .mouse {
+  width: 20%;
+  height: 30vh;
+  margin: 10PX;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes .mouse img {
+  width: 170px;
+  height: 180px;
+}
+
+/*estilos para el divisor imagenes dos*/
+.contain_imagenes_dos {
+  width: 100%;
+  height: 25%;
+  display: inline-flex;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.contain_imagenes_dos .disco_duro {
+  width: 20%;
+  height: 30vh;
+  margin:10PX;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes_dos .disco_duro img {
+  width: 170px;
+  height: 200px;
+}
+
+.contain_imagenes_dos .u_solido {
+  width: 20%;
+  height: 30vh;
+  margin: 10px;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes_dos .u_solido img {
+  width: 170px;
+  height: 200px;
+}
+
+.contain_imagenes_dos .usb {
+  width: 20%;
+  height: 30vh;
+  margin: 10px;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes_dos .usb img {
+  width: 180px;
+  height: 180px;
+}
+
+.contain_imagenes_dos .ram {
+  width: 20%;
+  height: 30vh;
+  margin: 10px;
+  border: 3px solid #B15CF4;
+  background-color: #00000041;
+  text-align: center;
+}
+
+.contain_imagenes_dos .ram img {
+  width: 180px;
+  height: 180px;
+}
+
+/*Estilos para el footer */
+footer{
+  width: 100%;
+  height: 20vh;
+  background: #000000;
+}
+
+/*estilos franja*/
+hr {
+  border: 3px solid #fce839;
+  border-radius: 5px;
+}
+
+/* estilos para el pie de pagina */
+
+.pie p {
+  text-align: right;
+  color: #ffffff;
+}
+
+.pie h5 {
+  text-align: center;
+  color: #ffffff;
+}

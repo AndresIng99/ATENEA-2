@@ -37,7 +37,7 @@ if (isset($_GET['status'])) {
               <ul id="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#services">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#contactox">Contacto</a></li>
               </ul>
             </div>
             <div class="menu" id="menu">
@@ -110,9 +110,13 @@ if (isset($_GET['status'])) {
                           <label for="inputemail">Correo Electrónico</label>
                           <input type="email" class="form-control" name="email" id="inputemail" required>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-3">
                           <label for="inputcontra">Contraseña</label>
                           <input type="password" class="form-control" name="pass" id="inputcontra" required>
+                        </div>
+                        <div class="form-group col-md-3">
+                          <label for="inputcontra">Contraseña 2</label>
+                          <input type="password" class="form-control" name="pass2" id="inputcontra" required>
                         </div>
                       </div>
                       <button name="register_btn" type="submit" class="btn_login">Registrate</button>
@@ -123,6 +127,7 @@ if (isset($_GET['status'])) {
         </div>
         </div>
     </div>
+
 
 
 

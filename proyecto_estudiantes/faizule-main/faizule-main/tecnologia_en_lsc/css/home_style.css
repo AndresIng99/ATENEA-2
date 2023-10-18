@@ -1,0 +1,190 @@
+/* fuentes del sitio
+font-family: 'Kiwi Maru', serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+/*
+codigo del contenedor principal
+*/
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Kiwi Maru', serif;
+}
+header{
+  background-color: #B15CF4;
+  width: 100%;
+  height: 120px; 
+}
+
+.logo {
+  width:15px;
+  height: 100px;
+  padding: 20px;
+}
+
+.logo img {
+  width: 85px;
+  height: 90px;
+}
+
+/*estilos para el menu de navegacion*/
+
+.menu {
+  position: absolute;
+  right:3%;
+  top: 3%;
+  width: auto;
+  height: 70px;
+}
+
+li,ol {
+  list-style: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.menu .nav {
+  display: inline-flex;
+}
+
+.menu .nav li {
+  background-color:rgba(0, 0, 0, 0.664);
+  color:white;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.menu .nav a {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: rgba(27, 27, 27, 0.144);
+}
+
+.nav li:hover {
+  background-color: rgba(27, 27, 27, 0.144);
+}
+
+.menu.nav>li {
+  float: left;
+}
+
+.menu .nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 95px;
+}
+
+.menu li:hover>ul {
+  display: block;
+}
+
+/*Estilos para el contain principal*/
+#main-contain {
+  width:100%;
+  height: 80vh;
+  background-image: url('../image/background.png');
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: center;
+  padding-bottom: 50px;
+  display: inline-flex;
+}
+
+/*estilos para el divisor de informacion*/
+#main-contain .info {
+  width: 50%;
+  margin-top: 70px;
+  height: 100%;
+ }
+
+#main-contain .info h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 20%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+/*estilos para el divisor de imagen*/
+#main-contain .imagen_señas {
+  width: 50%;
+  margin-top: 120px;
+  height: auto;
+  text-align: center;
+}
+
+#main-contain .imagen_señas img {
+/*position: absolute;*/
+  width: 400px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+/*Estilos para el footer*/
+footer{
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  background: #000000;
+}
+
+/*estilos franja*/
+hr {
+  border: 3px solid #fce839;
+  border-radius: 5px;
+}
+
+/* estilos para el pie de pagina */
+
+.pie p {
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.pie h5 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+@media(max-width: 1050px){
+ #main-contain{
+  width:100%;
+  height:auto;
+  background-color: #c0a1d9;
+  display:inline-flex;
+  flex-direction: column;
+}
+#main-contain .info, #main-contain .imagen_señas {
+  width: 100%;
+  height: 100%;
+ }
+ #main-contain .info h1 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 10%;
+  margin-left: 0px;
+}
+#main-contain .imagen_señas img {
+
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 0px;
+  
+}
+}
+
+
+
