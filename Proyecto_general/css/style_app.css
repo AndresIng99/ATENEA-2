@@ -1,0 +1,115 @@
+/*recursos import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+
+/*font-family: 'Roboto Serif', serif;*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Serif', serif;
+}
+body{
+    background-image: url('../img/background_app.png');
+    background-size: cover;
+    background-position-x: center;
+}
+#general_section{
+    display: flex;
+    width: 90%;
+    margin: 5vh 5%;
+    background-color: #fff;
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px -1px rgba(76, 76, 76, 0.75);
+}
+/*estilos del menu lateral izquierdo*/
+#general_section .left_menu{
+    width: 120px;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1.5px dotted #e1e1e1;
+    border-radius: 20px 0px 0px 20px;
+}
+#general_section img{
+    width: 100%;
+    height: auto;
+}
+#general_section nav{
+    margin-top: 120px;
+    text-align: center;
+}
+#general_section li{
+    margin: 15px auto;
+    list-style: none;
+}
+#general_section .icon{
+    width: 50px;
+    height: 50px;
+}
+#general_section .exit{
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+/*estilos del menu central*/
+
+#general_section .central{
+    width: calc(100% - 420px);
+    height: 100%;
+    background-color: aquamarine;
+}
+
+/*Estilos del menu lateral derecho*/
+
+#general_section .right_menu{
+    width: 300px;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+#general_section .right_menu .profile{
+    text-align: center;
+    margin-top: 100px;
+}
+#general_section .right_menu .profile img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+#general_section .right_menu .profile p{
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+#general_section .right_menu .profile span{
+    font-weight: normal;
+    font-size: 13px;
+    color: rgb(132, 132, 132);
+}
+.sepa{
+    margin: 15px 10%;
+    width: 80%;
+    border: 0.5px solid #b8b8b8;
+}
+.last_tras{
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+.last_tras h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #202d39c4;
+}
+.last_tras span{
+    color: #202d39c4 !important;
+    font-weight: bold;
+}
+.last_tras .t_i span, .last_tras .t_i p{
+    margin: 7px auto;
+    font-size: 13px;
+    color: #b1b1b1;
+    text-align: justify;
+}
