@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style_app.css">
+    <link rel="stylesheet" href="../css/style_app_opc1.css">
 
     <script src="https://kit.fontawesome.com/27010df775.js" crossorigin="anonymous"></script>
     <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
@@ -16,35 +16,35 @@
             <nav>
                 <ul>
                     <li>
-                        <lord-icon class="icon"
+                        <lord-icon class="icon mod1" onclick="act_mod1()"
                             title="Planeación presupuestal del mes"
                             src="https://cdn.lordicon.com/ksdjzsym.json"
                             trigger="hover">
                         </lord-icon>
                     </li>
                     <li>
-                        <lord-icon class="icon"
+                        <lord-icon class="icon mod2" onclick="act_mod2()"
                             title="Registro de ingresos y gastos"
                             src="https://cdn.lordicon.com/ofklvwkr.json"
                             trigger="hover">
                         </lord-icon>
                     </li>
                     <li>
-                        <lord-icon class="icon"
+                        <lord-icon class="icon mod3" onclick="act_mod3()"
                             title="Administra tus propias categorías"
                             src="https://cdn.lordicon.com/wzwygmng.json"
                             trigger="hover">
                         </lord-icon>
                     </li>
                     <li>
-                        <lord-icon class="icon"
+                        <lord-icon class="icon mod4" onclick="act_mod4()"
                             title="Calculadora de interés compuestos"
                             src="https://cdn.lordicon.com/iiuaqmnt.json"
                             trigger="hover">
                         </lord-icon>
                     </li>
                     <li>
-                        <lord-icon class="icon"
+                        <lord-icon class="icon mod5" onclick="act_mod5()"
                             title="Dashboard de seguimiento globalizado"
                             src="https://cdn.lordicon.com/abwrkdvl.json"
                             trigger="hover">
@@ -61,7 +61,11 @@
             </div>
         </div>
         <div class="central">
-            
+            <div id="modulo1"><h1>MODULO 1</h1><img src="../img/planeacion.png" alt=""></div>
+            <div id="modulo2"><h1>MODULO 2</h1><img src="../img/registro_ingresos.png" alt=""></div>
+            <div id="modulo3"><h1>MODULO 3</h1><img src="../img/admin_categorias.png" alt=""></div>
+            <div id="modulo4"><h1>MODULO 4</h1><img src="../img/calculadora.png" alt=""></div>
+            <div id="modulo5"><h1>MODULO 5</h1><img src="../img/dashboard_1.png" alt=""></div>
         </div>
         <div class="right_menu">
             <div class="profile">
@@ -98,7 +102,44 @@
                 </div>
             </div>
         </div>
-        
     </section>
+
+    <script>
+        function act_mod1() {
+            document.getElementById('modulo1').style.display="block";
+            document.getElementById('modulo2').style.display="none";
+            document.getElementById('modulo3').style.display="none";
+            document.getElementById('modulo4').style.display="none";
+            document.getElementById('modulo5').style.display="none";
+        }
+        function act_mod2() {
+            document.getElementById('modulo1').style.display="none";
+            document.getElementById('modulo2').style.display="block";
+            document.getElementById('modulo3').style.display="none";
+            document.getElementById('modulo4').style.display="none";
+            document.getElementById('modulo5').style.display="none";
+        }
+        function act_mod3() {
+            document.getElementById('modulo1').style.display="none";
+            document.getElementById('modulo2').style.display="none";
+            document.getElementById('modulo3').style.display="block";
+            document.getElementById('modulo4').style.display="none";
+            document.getElementById('modulo5').style.display="none";
+        }
+        function act_mod4() {
+            document.getElementById('modulo1').style.display="none";
+            document.getElementById('modulo2').style.display="none";
+            document.getElementById('modulo3').style.display="none";
+            document.getElementById('modulo4').style.display="block";
+            document.getElementById('modulo5').style.display="none";
+        }
+        function act_mod5() {
+            document.getElementById('modulo1').style.display="none";
+            document.getElementById('modulo2').style.display="none";
+            document.getElementById('modulo3').style.display="none";
+            document.getElementById('modulo4').style.display="none";
+            document.getElementById('modulo5').style.display="block";
+        }
+    </script>
 </body>
 </html>

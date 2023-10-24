@@ -31,7 +31,7 @@ body{
     border-right: 1.5px dotted #e1e1e1;
     border-radius: 20px 0px 0px 20px;
 }
-#general_section .left_menu img{
+#general_section img{
     width: 100%;
     height: auto;
 }
@@ -58,9 +58,7 @@ body{
 #general_section .central{
     width: calc(100% - 420px);
     height: 100%;
-}
-#general_section .central img{
-    width: 500px;
+    background-color: aquamarine;
 }
 
 /*Estilos del menu lateral derecho*/
@@ -116,43 +114,11 @@ body{
     text-align: justify;
 }
 
-/*Estilos generales de la clase central*/
+/*ESTILO ADICIONAL OPC1*/
 
-.central h1{
-    font-size: 25px;
-    text-align: center;
-    margin-top: 80px;
-    color:#202d39;
+#modulo2, #modulo3, #modulo4, #modulo5{
+    display: none;
 }
-.central .sepa{
-    border: 1px solid #737374c4;
-}
-.central form{
-    max-width: 80%;
-    margin-left: 10%;
-}
-.central .cont_table{
-    width: 80%;
-    margin-left: 10%;
-    height: 230px;
-    overflow-y: scroll;
-}
-
-.central form .icons_form{
-    width: 50px;
-    height: 50px;
-}
-.central form label{
-    font-size: 20px;
-    color: #959595;
-}
-.central table thead{
-    background-color: #202020;
-    color: white;
-    font-weight: normal;
-}
-.central .btn-info{
-    background-color: #33a28f;
-    border: none;
-    width: 100%;
+.central img{
+    width: 500px !important;
 }

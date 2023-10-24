@@ -20,7 +20,7 @@ if (isset($_POST['login_btn'])) {
             $_SESSION['usuario'] = $datos['id_person'];
             $_SESSION['email'] = $datos['email'];
         }
-        header('location:../app/index.php');
+        header('location:../app/modulo1.php');
     }else {
         header('location:../index.php?status=3');
     }
