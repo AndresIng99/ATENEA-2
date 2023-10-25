@@ -116,7 +116,22 @@ body{
     text-align: justify;
 }
 
-/*Estilos generales de la clase central*/
+/*Estilos modulo 3*/
+
+.central .add_category, .central .update_category{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+}
+.central .add_category h2, .central .update_category h2{
+    color: #515151;
+    font-size: 22px;
+}
+.central .add_category select, .central .update_category select{
+    height: 65px !important;
+}
+
+/*Estilos generales de la clase central MODULO 4*/
 
 .central h1{
     font-size: 25px;
@@ -156,3 +171,5 @@ body{
     border: none;
     width: 100%;
 }
+
+
