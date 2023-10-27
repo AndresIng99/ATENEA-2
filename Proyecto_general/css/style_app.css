@@ -123,11 +123,16 @@ body{
     margin-left: 10%;
     height: auto;
 }
-.central .add_category h2, .central .update_category h2{
+.central h2, .central h2{
     color: #515151;
     font-size: 22px;
 }
-.central .add_category select, .central .update_category select{
+.central h3, .central h3{
+    color: #515151;
+    font-size: 22px;
+    margin-left: 10%;
+}
+.central select{
     height: 65px !important;
 }
 
@@ -143,7 +148,7 @@ body{
     border: 1px solid #737374c4;
 }
 .central form{
-    max-width: 80%;
+    width: 80%;
     margin-left: 10%;
 }
 .central .cont_table{
@@ -171,5 +176,19 @@ body{
     border: none;
     width: 100%;
 }
-
+.form2, .table2{
+    width: 100% !important;
+    margin-left: 0% !important;
+}
+.table form i{
+    text-align: center;
+    font-size: 25px;
+    color: #33a28f;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.table form i:hover{
+    color: #f6bc2d;
+    transition: all 0.5s;
+}
 

@@ -88,12 +88,15 @@
                 for ($i=1; $i <= $periodo; $i++) { 
                     $capital_final = $cap_ini*((1+$tasa_int)**$i);
                     $capital_final = round($capital_final, 2); 
+
+                    $capital_final2 = number_format($capital_final, 0, ',', '.');
+                    $cap_ini2 = number_format($cap_ini, 0, ',', '.');
                     echo '    
                         <tr>
-                            <td>'.$cap_ini.'</td>
+                            <td>$ '.$cap_ini2.'</td>
                             <td>'.$tasa_int.'</td>
                             <td>'.$i.'</td>
-                            <th scope="row">'.$capital_final.'</th>
+                            <th scope="row">$ '.$capital_final2.'</th>
                         </tr>';
                 }
                 echo'
