@@ -11,13 +11,6 @@ $datosvalor = crearArreglo('<?php echo $datosvalor ?>');
         type: 'pie'
     }];
 
-    var layout = {
-        title: 'Valor proyectado de categorías en el mes',
-        height: 350,
-        width: 350,
-        showlegend: false,
-        grid: {rows: 1, columns: 1}
-    };
 
-Plotly.newPlot('grafica1', data, layout);
+Plotly.newPlot('grafica1', data);
 </script>

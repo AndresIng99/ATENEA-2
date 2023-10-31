@@ -192,3 +192,28 @@ body{
     transition: all 0.5s;
 }
 
+
+
+/*estilos de dashboard*/
+
+.dash_board{
+    width: 80%;
+    height: 70%;
+    overflow-y: scroll;
+    margin: auto 10%;
+}
+.dash_board .cont_grap{
+    width: 100%;
+    height: 350px;
+    display: inline-flex;
+}
+.dash_board .cont_grap .grap, .dash_board .cont_grap .grap_table{
+    width: 50%;
+    height: 100%;
+}
+.dash_board .cont_grap .grap_table{
+    overflow-y: scroll;
+}
+.dash_board .cont_grap .grap_table table{
+    margin-top: 28px;
+}
