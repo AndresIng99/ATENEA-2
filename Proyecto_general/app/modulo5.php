@@ -1,3 +1,51 @@
+<?php
+
+    session_start();
+    include '../db/conexion.php';
+    $nombre = $_SESSION['nombre'];
+    $apellido = $_SESSION['apellido'];
+    $nacimiento = $_SESSION['nacimiento'];
+    $usuario = $_SESSION['usuario'];
+    $email = $_SESSION['email'];
+
+    $nombre_completo = $nombre.' '.$apellido; 
+    $date = date("Y-m"); 
+    $date = date("Y-m-d", strtotime($date));
+
+    
+
+    $query_category_value = mysqli_query($conexion, "SELECT * FROM plan
+    WHERE id_person = $usuario and month_plan = '$date'"); 
+
+    $cant = 0;
+    while($consulta_grap = mysqli_fetch_array($query_category_value)){
+        $cat_id = $consulta_grap['id_category'];
+        $value_cat[$cant] = $consulta_grap['value_plan'];
+
+
+        $query_category = mysqli_query($conexion, "SELECT * FROM category_user
+        WHERE id_person = $usuario and id_category = $cat_id");
+        while($name_cat = mysqli_fetch_array($query_category)){
+            $cat_name[$cant] = $name_cat['category_name'];
+        }
+        
+        $cant++;
+    }
+
+    $suma_category = array_sum($value_cat);
+    $tamaño = count($value_cat);
+
+    
+    for ($i=0; $i < $tamaño; $i++) { 
+        $porcetajes[$i] = round(($value_cat[$i]*100)/$suma_category, 0);
+    }
+
+    $datoslabel = json_encode($cat_name);
+    $datosvalor = json_encode($porcetajes);
+    
+    
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +55,7 @@
 
     <script src="https://kit.fontawesome.com/27010df775.js" crossorigin="anonymous"></script>
     <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
     <title>Centavos Sabios</title>
 </head>
 <body>
@@ -15,7 +64,10 @@
             <menu-main></menu-main>
         </div>
         <div class="central">
-            <div id="modulo5"><h1>MODULO 5</h1><img src="../img/dashboard_1.png" alt=""></div>
+            <h1>Dashboard de seguimiento globalizado</h1>
+            <hr class="sepa">
+            <div id="grafica1">
+            </div>
         </div>
         <div class="right_menu">
             <div class="profile">
@@ -54,6 +106,8 @@
         </div>
         
     </section>
+    <script src="../js/arreglo.js"></script>
+    <?php include 'dashboard/grafica1.php' ?>
     <script src="../js/component_menu.js"></script>
 </body>
 </html>
