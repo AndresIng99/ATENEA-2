@@ -1,0 +1,488 @@
+/* fuentes del sitio
+font-family: 'Kiwi Maru', serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+/*
+codigo del contenedor principal
+*/
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Kiwi Maru', serif;
+}
+.header {
+  width: 100%;
+ height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #bf7cf37c;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 85px;
+  height: 90px;
+  padding: 20px;
+}
+.header .navigation{
+padding: 0px 30px;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.header .navigation ul li {
+  float: left;
+  position: relative;
+}
+
+.header .navigation ul li a {
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  transition: all .2s ease;
+}
+
+.header .navigation ul li a:hover {
+  background-color: #f8b768;
+  border-radius: 10px;
+}
+
+.header .navigation ul li ul {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  background-color: #bf7cf37c;
+  display: none;
+}
+
+.header .navigation ul li ul li a {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.header .navigation ul li ul li ul {
+  position: absolute;
+  top: 0;
+  right: 300px;
+}
+
+.header .navigation ul li ul li {
+  width: 100%;
+}
+
+.header .navigation ul li:hover>ul {
+  display: initial;
+}
+
+#toggle,
+.header label {
+  display: none;
+  cursor: pointer;
+}
+
+.menu {
+  width: 45px;
+  height: 35px;
+}
+
+/*Estilos para contenedor principal*/
+#main-contain {
+  width: 100%;
+  height: 80vh;
+  display: inline-flex;
+}
+
+/*estilos para el divisor del video*/
+#main-contain .video_hardware {
+  width: 50%;
+  height: auto;
+  margin-top: 120px;
+  text-align: center;
+ 
+}
+
+#main-contain .video_hardware iframe {
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+/*estilos para el divisor de imagen*/
+#main-contain .imagen_hardware {
+  width: 50%;
+  height: auto;
+  margin-top: 120px;
+  text-align: center;
+  
+}
+
+#main-contain .imagen_hardware img {
+  height: 300px;
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+/* Estilos para el contenedor componentes*/
+#componentes {
+  width: 100%;
+  height: 100vh;
+} 
+
+#componentes .texto {
+  width: 100%;
+  height: auto;
+}
+
+#componentes .texto h1 {
+  color: #B15CF4;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 40px;
+}
+
+#componentes .texto p {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin-top: 2%;
+}
+
+/*estilos para el divisor videos*/
+.contain_videos{
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  margin-left: 65px;
+}
+
+.contain_videos .cpu{
+  width: 20%;
+  height: auto;
+  margin: 10PX;
+  text-align: center;
+}
+
+.contain_videos .cpu h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos .cpu iframe{
+  width: 200px;
+  height: 200px;
+}
+
+.contain_videos .monitor{
+  width: 20%;
+  height: auto;
+  margin: 10PX;
+  text-align: center;
+}
+
+.contain_videos .monitor h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos .monitor iframe{
+  width: 200px;
+  height: 200px;
+}
+
+.contain_videos .teclado{
+  width: 20%;
+  height: auto;
+  margin: 10PX;
+  text-align: center;
+}
+
+.contain_videos .teclado h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos .teclado iframe{
+  width: 200px;
+  height: 200px;
+}
+
+.contain_videos .mouse{
+  width: 20%;
+  height: auto;
+  margin: 10PX;
+  text-align: center;
+}
+
+.contain_videos .mouse h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos .mouse iframe{
+  width: 200px;
+  height: 200px;
+}
+
+/*estilos para el divisor videos dos*/
+.contain_videos_dos{
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  margin-left: 65px;
+  
+}
+
+.contain_videos_dos .disco_duro{
+  width: 20%;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+.contain_videos_dos .disco_duro h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos_dos .disco_duro iframe{
+  width: 200px;
+  height: 200px;
+}
+
+.contain_videos_dos .u_solido{
+  width: 20%;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+.contain_videos_dos .u_solido h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos_dos .u_solido iframe{
+  width: 200px;
+  height: 200px;
+}
+
+.contain_videos_dos .usb{
+  width: 20%;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+.contain_videos_dos .usb h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos_dos .usb iframe{
+  width: 200px;
+  height: 200px;
+}
+
+.contain_videos_dos .ram{
+  width: 20%;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+.contain_videos_dos .ram h3{
+  color: #B15CF4;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contain_videos_dos .ram iframe{
+  width: 200px;
+  height: 200px;
+}
+
+/*Estilos para el footer*/
+footer{
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  background: #000000;
+}
+
+/*estilos franja*/
+hr {
+  border: 3px solid #fce839;
+  border-radius: 5px;
+}
+
+/* estilos para el pie de pagina */
+
+.pie p {
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.pie h5 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+/*responsive design para tables*/
+
+@media(max-width: 1050px){
+  #main-contain {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  #main-contain .video_hardware, #main-contain .imagen_hardware {
+    width: 100%;
+  }
+
+  #main-contain .video_hardware iframe, #main-contain .imagen_hardware img {
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  #componentes {
+    width: 100%;
+    height: auto;
+  } 
+
+  #componentes .texto p {
+    font-size: 20px;
+  }
+  .contain_videos{
+    height: auto;
+    display: inline-block;
+    margin-left: 0px;
+  } 
+ .contain_videos .cpu, .contain_videos .monitor,
+  .contain_videos .teclado, .contain_videos .mouse{
+  width: 100%;
+  margin: 0px;
+ }
+ .contain_videos .cpu iframe,  .contain_videos .monitor iframe,
+ .contain_videos .teclado iframe, .contain_videos .mouse iframe{
+  width: 400px;
+  margin: 0px;
+  }
+  .contain_videos_dos{
+  height: auto;
+  display: inline-block;
+  margin-left: 0px;
+  } 
+  .contain_videos_dos .disco_duro, .contain_videos_dos .u_solido,
+  .contain_videos_dos .usb, .contain_videos_dos .ram{
+  width: 100%;
+  margin: 0px;
+  }
+  .contain_videos_dos .disco_duro iframe,  .contain_videos_dos .u_solido iframe,
+  .contain_videos_dos .usb iframe, .contain_videos_dos .ram iframe{
+  width: 400px;
+  margin: 0px;
+  }
+}
+
+/*Responsive design para celulares*/
+@media(max-width:600px) {
+  .header {
+    padding: 10px 0%;
+}
+ .header label {
+      display: initial;
+     
+  }
+  .header label img{
+    width: 50px;
+    height: 50px;
+    padding: 0px 20px;
+  }
+  .header .navigation {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #cecfcf;
+      display: none;
+  }
+
+  .header .navigation ul li {
+      width: 100%;
+  }
+
+  .header .navigation ul li a {
+      padding: 8px 30px 8px 10%;
+  }
+
+  .header .navigation ul li ul {
+      position: relative;
+      width: 100%;
+      left: 0;
+  }
+
+  .header .navigation ul li ul li {
+      background-color: #000000;
+  }
+
+  .header .navigation ul li ul li ul {
+      position: relative;
+      width: 100%;
+      left: 0;
+  }
+
+  #toggle:checked~.navigation {
+      display: block;
+  }
+}
+@media(max-width:600px){
+ #main-contain .video_hardware iframe, #main-contain .imagen_hardware img {
+    width: 250px;
+    height: 200px;
+  } 
+
+  #componentes .texto h1 {
+   margin-top: 0%;
+   font-size: 20px;
+  }
+  
+  #componentes .texto p {
+    font-size: 18px;
+    margin-top: 0%;
+  }
+
+  .contain_videos .cpu iframe,  .contain_videos .monitor iframe,
+  .contain_videos .teclado iframe, .contain_videos .mouse iframe{
+   width: 200px;
+  }
+ 
+  .contain_videos_dos .disco_duro iframe,  .contain_videos_dos .u_solido iframe,
+  .contain_videos_dos .usb iframe, .contain_videos_dos .ram iframe{
+  width: 200px;
+
+  }
+}
