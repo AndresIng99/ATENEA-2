@@ -1,0 +1,14 @@
+section {
+    margin: 50px 50px;
+    
+    
+}
+div a {
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#div-2 a {
+    color: blueviolet;  
+}

@@ -36,7 +36,7 @@
         $cant++;
     }
 
-    $suma_category = array_sum($value_cat);
+    //$suma_category = array_sum($value_cat);
     $tamaño = count($value_cat);
 
     

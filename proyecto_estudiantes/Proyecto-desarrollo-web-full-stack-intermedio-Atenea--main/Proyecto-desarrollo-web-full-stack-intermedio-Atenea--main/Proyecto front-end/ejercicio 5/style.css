@@ -1,0 +1,37 @@
+.parrafo{
+    text-align: center
+
+}
+
+.linea1{
+    border-bottom: 2px solid;
+    color: #53ac0e ;
+}
+.linea2{
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+.linea3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.linea4{
+    color: #0000FF;
+    line-height: 2.5;
+    font-weight: bold;
+}
+#linea5{
+    border-bottom: 2px solid;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #FF0000
+}
+#linea6{
+    font-weight: bold;
+    color: #FF0000
+}
+
+body {
+    background-color: aqua;
+
+}

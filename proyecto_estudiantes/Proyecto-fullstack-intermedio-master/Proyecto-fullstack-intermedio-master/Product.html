@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ice Cream Factory</title>
+   <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+   <div>
+      <menu-main></menu-main>
+   </div>
+
+   <div>
+      <menu-main-footer></menu-main-footer>
+   </div>
+
+   <div class="body_products">
+      <div class="product_image">
+         <h3 class="h3_product">Productos</h3><br>
+         <img class="tarro_helado" src="./images/tarro_limon.png" alt=""><br>
+         <h3 class="h3_price">Valor unidad $20.000 COP</h3>
+      </div>
+      <div class="form">
+         <form action="">
+            <label for="">Tarros de helado</label>
+            <select name="products" id="">
+               <option value="limon">Sabor limón</option>
+               <option value="fresa">Sabor fresa</option>
+               <option value="naranja">Sabor naranja</option>
+               <option value="chocolate">Sabor chocolate</option>
+               <option value="maracuya">Sabor maracuya</option>
+               <option value="vainilla">Sabor vainilla</option>
+
+            </select>
+
+         </form>
+         <form action="">
+            <label for="cantidad">Cantidad</label>
+            <input type="number">
+         </form>
+         <button>Comprar</button>
+      </div>
+
+   </div>
+
+
+
+
+   <script src="./js/component_menu.js"></script>
+   <script src="./js/component_menu_footer.js"></script>
+
+</body>
+
+</html>

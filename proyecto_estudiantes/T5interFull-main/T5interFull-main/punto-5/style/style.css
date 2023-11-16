@@ -1,0 +1,28 @@
+div {
+    margin: 50px 40px;
+}
+#u-1 {
+color: green;
+}
+.span-1 {
+    color: red;
+}
+.span-2 {
+    text-decoration-line: overline underline;
+    
+}
+#strong-1 {
+    font-size: 35px;
+}
+.span-3 {
+    color: blue;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#u-2 {
+    color: red;
+    font-size: 20px;
+    font-weight:bold;
+    
+}

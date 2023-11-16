@@ -1,0 +1,274 @@
+@media screen and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav h5 {
+        margin: 0;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    #main-contain {
+        width: 100%;
+        height: auto;
+        /* Ajusta la altura automáticamente */
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-contain .texto h1 {
+        font-size: 36px;
+        /* Reduce el tamaño del encabezado */
+        margin-left: 0;
+        /* Elimina el margen izquierdo */
+        margin-top: 8px;
+        /* Ajusta el margen superior */
+    }
+
+    #main-contain .texto p {
+        font-size: 20px;
+        /* Reduce el tamaño del párrafo */
+        margin-left: 0;
+        /* Elimina el margen izquierdo */
+        margin-top: 8px;
+        /* Ajusta el margen superior */
+    }
+
+    #main-contain .cuadro {
+        width: 100%;
+        /* Ocupa todo el ancho en dispositivos móviles */
+        height: auto;
+        /* Ajusta la altura automáticamente */
+        background-color: #e4f0f8;
+    }
+
+    .bandera-colombia {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        /* Ajusta la posición en dispositivos móviles */
+        margin-top: 10px;
+        /* Ajusta la posición en dispositivos móviles */
+        width: 26px;
+        height: 26px;
+        background-size: 26px;
+        background-position: 50%;
+        background-image: url(https://www.credy.com.co/_nuxt/img/columbia.5218882.svg);
+    }
+
+
+
+    #main-contain .contenedor {
+        width: 100%;
+        height: 100%;
+        min-width: 80%;
+        /* Aumenta el ancho para dispositivos móviles */
+        text-align: center;
+        background-color: #B5C9EF;
+        flex-direction: column;
+
+    }
+
+    .cuadro {
+        width: 100%;
+        /* Ocupa todo el ancho en dispositivos móviles */
+        height: auto;
+        /* Ajusta la altura automáticamente */
+        border: 1px solid #fffcfc;
+        background-color: #aedbf0;
+        padding: 10px;
+        /* Reduce el espaciado */
+        display: flex;
+        margin: 4%;
+        margin-left: 0;
+        /* Elimina el margen izquierdo */
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .linea p,
+    .linea h2,
+    .linea a,
+    .linea i {
+        margin-left: 0;
+    }
+
+    .primero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .primero td {
+        width: 100%;
+    }
+
+    .linea {
+        margin-top: 10px;
+        /* Ajusta el margen superior en dispositivos móviles */
+    }
+
+    .linea p {
+        display: inline;
+        align-items: center;
+        margin-left: 10px;
+        /* Ajusta el espaciado en dispositivos móviles */
+    }
+
+    .linea h2 {
+        display: inline;
+        align-items: center;
+        margin-left: 10px;
+        /* Ajusta el espaciado en dispositivos móviles */
+        color: #0D22E8;
+    }
+
+    .linea a {
+        margin-left: 10px;
+        /* Ajusta el espaciado en dispositivos móviles */
+        color: #000000;
+    }
+
+    .linea i {
+        color: #0D22E8;
+        margin-left: 10px;
+        /* Ajusta el espaciado en dispositivos móviles */
+    }
+
+
+    .second-contain {
+        width: 100%;
+        height: auto;
+        /* Ajusta la altura automáticamente */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second-contain h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        /* Ajusta el margen superior en dispositivos móviles */
+    }
+
+
+    .second-contain p {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 0;
+        /* Elimina el margen izquierdo */
+        margin-right: 0;
+        /* Elimina el margen derecho */
+        margin: 10px;
+        /* Ajusta el margen en dispositivos móviles */
+    }
+
+    .seleccion2 {
+        text-align: center;
+        margin-top: 10px;
+        /* Ajusta el margen superior en dispositivos móviles */
+        margin-bottom: 10px;
+    }
+
+    .primero i {
+        font-size: 36px;
+    }
+
+    .linea h2 {
+        display: inline;
+        align-items: center;
+        margin-left: 10px;
+        /* Ajusta el espaciado en dispositivos móviles */
+        color: #0D22E8;
+    }
+
+
+    .linea a {
+        margin-left: 10px;
+        /* Ajusta el espaciado en dispositivos móviles */
+        color: #000000;
+    }
+
+    .primero i {
+        padding: 10px;
+        margin-top: 10%;
+        font-size: 40px;
+        /* Reduce el tamaño del ícono en dispositivos móviles */
+        color: #0D22E8;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 17, 255, 0.5);
+    }
+
+    .primero {
+        margin-top: 15%;
+        /* Ajusta el margen superior en dispositivos móviles */
+        display: inline;
+    }
+
+
+    footer a {
+        width: 100%;
+        max-width: 100%;
+        /* Ajusta el ancho en dispositivos móviles */
+        list-style-type: none;
+        padding: 15px;
+        /* Ajusta el espaciado en dispositivos móviles */
+        display: inline;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    footer li {
+        width: 100%;
+        max-width: 100%;
+        /* Ajusta el ancho en dispositivos móviles */
+        list-style-type: none;
+        padding: 15px;
+        /* Ajusta el espaciado en dispositivos móviles */
+        display: inline;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        margin-top: 10px;
+        /* Ajusta el margen superior en dispositivos móviles */
+        background-color: #a5c8f0;
+        color: #161313;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .seleccion2 {
+        text-align: center;
+        margin-top: 10px;
+        /* Ajusta el margen superior en dispositivos móviles */
+        margin-bottom: 10px;
+    }
+
+
+    .second-contain p {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 0;
+        /* Elimina el margen izquierdo */
+        margin-right: 0;
+        /* Elimina el margen derecho */
+        margin: 10px;
+        /* Ajusta el margen en dispositivos móviles */
+    }
+
+
+
+}

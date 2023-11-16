@@ -1,0 +1,420 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B5C9EF;
+    overflow: visible;
+    color: #000000;
+
+}
+
+
+header {
+    text-align: center;
+    background-color: #8FBBEE;
+    color: #0D22E8;
+    padding: 12px;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Abril fatface';
+    margin: 8px;
+    padding: 12px;
+}
+
+header h5 {
+    font-size: 20px;
+    margin: 8px;
+    padding: 12px;
+    color: #000000;
+    font-family: 'Italic';
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    padding: 12px;
+
+}
+
+nav h5 {
+
+    margin: 0;
+    /* Elimina el margen por defecto de los encabezados h5 */
+    display: inline;
+    /* Para que los elementos estén en línea */
+    margin-right: 80px;
+    /* Espaciado entre elementos */
+}
+
+nav h5:hover {
+    cursor: pointer;
+    /* Cambiar el cursor a una mano o flecha */
+}
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+
+}
+
+.contenedor {
+    display: flex;
+    padding-top: 2%;
+
+}
+
+
+
+#main-contain .contenedor {
+    width: 100%;
+    height: 100%;
+    min-width: 42%;
+    text-align: center;
+    background-color: #B5C9EF;
+    flex-direction: column;
+}
+
+.texto h1 {
+    text-align: left;
+
+}
+
+.texto p {
+    text-align: left;
+
+
+}
+
+.cuadro {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fffcfc;
+    background-color: #aedbf0;
+    padding: 40px;
+    display: flex;
+    margin: 8%;
+    margin-left: 150px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-contain .cuadro {
+    width: 100%;
+    height: 100%;
+    min-width: 40%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #B2DAFA;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+
+.label {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.value {
+    font-size: 18px;
+}
+
+.symbol-button {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.slider-container {
+    flex: 3;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    align-items: right;
+}
+
+.slider {
+    width: 100%;
+}
+
+#main-contain {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+#main-contain .texto h1 {
+    font-size: 50px;
+    margin-left: 7%;
+    margin-top: 12%;
+    font-weight: 200;
+}
+
+#main-contain .texto p {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: 100;
+}
+
+
+#main-contain .cuadro {
+    width: 80%;
+    height: 50%;
+    background-color: #e4f0f8;
+}
+
+button {
+    background-color: #4cf11a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 255, 128, 0.74);
+
+
+}
+
+.seleccion {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.bandera-colombia {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 45%;
+    /*colocarlo a la izquierda*/
+    margin-top: 30px;
+    width: 26px;
+    height: 26px;
+    background-size: 26px;
+    background-position: 50%;
+    background-image: url(https://www.credy.com.co/_nuxt/img/columbia.5218882.svg);
+}
+
+.Colombia {
+    padding-left: 40px;
+    text-align: center;
+    align-items: center;
+
+
+
+}
+
+.linea {
+    margin-top: 20px;
+}
+
+.linea p {
+    display: inline;
+    align-items: center;
+    margin-left: 90px;
+
+}
+
+.linea h2 {
+    display: inline;
+    align-items: center;
+    margin-left: 80px;
+    color: #0D22E8;
+
+}
+
+.linea a {
+    margin-left: 110px;
+    color: #000000;
+
+}
+
+.linea i {
+    color: #0D22E8;
+    margin-left: 20px;
+
+}
+
+.second-contain {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-contain h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+.second-contain p {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 30px;
+    margin: 20px;
+}
+
+.seleccion2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    /* dar espacio a los lados*/
+    margin-top: 600px;
+    /* separar espacio desde la parte superior*/
+    background-color: #a5c8f0;
+    color: #161313;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*colocarlos en columnas*/
+    justify-content: center;
+}
+
+footer label {
+    width: 100%;
+    font-size: 18px;
+    line-height: 2em;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+}
+
+footer ul {
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+footer li {
+    width: 100%;
+    max-width: 50%;
+    list-style-type: none;
+    padding: 35px;
+    display: inline;
+}
+
+footer a {
+    width: 100%;
+    max-width: 50%;
+    list-style-type: none;
+    padding: 35px;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+}
+
+.opciones {
+    margin-top: 20px;
+
+
+}
+
+.opciones2 {
+    margin-top: 40px;
+    list-style-type: none;
+
+}
+
+.opciones3 {
+    width: 100%;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+
+
+}
+
+.primero {
+    margin-top: 35%;
+    display: inline;
+}
+
+.primero tr {
+    display: inline-block;
+    line-height: 2em;
+    box-sizing: border-box;
+
+}
+
+.primero td {
+    width: 10%;
+    font-size: 18px;
+    line-height: 2em;
+    box-sizing: border-box;
+}
+
+.primero i {
+    padding: 10%;
+    margin-top: 10%;
+    font-size: 50px;
+    color: #0D22E8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 17, 255, 0.5);
+
+
+
+}
+
+.primero h6 {
+    padding: 1%;
+    padding-right: 30%;
+    margin-top: 10%;
+
+}
+
+.primero p {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+

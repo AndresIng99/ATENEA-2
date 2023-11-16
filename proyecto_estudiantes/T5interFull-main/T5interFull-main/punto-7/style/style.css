@@ -1,0 +1,29 @@
+nav {
+    margin: 20px 120px;
+    display: flex;
+    background-color: rgba(93, 52, 109, 0.589);
+}
+nav button {
+    margin: 10px 20px;
+    padding: 10px 12px;
+    align-items: center;
+    color:#fff;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+}
+
+.li-1 a {
+    color: #fff;
+}
+
+#li-2 a {
+    color: #fff;
+    text-decoration-line: none;
+}

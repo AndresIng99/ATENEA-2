@@ -1,0 +1,233 @@
+html {
+    height: 100%;
+}
+
+body {
+
+    background: linear-gradient(to bottom, #FF65B3, #FEBE80);
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+    color: #fff;
+}
+
+.n1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.red {
+    filter: invert(1);
+
+}
+
+.face {
+    margin: 15px;
+}
+
+.cono_fondo {
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: rotate(300deg);
+    filter: invert(1);
+    opacity: 50%;
+    margin-top: 0px;
+    margin: 0;
+
+}
+
+.conos_fondo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 800px;
+    height: auto;
+    margin: 0;
+}
+
+.sabor_choco {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+
+.atras {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.adelante {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.boton {
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: fantasy;
+    -webkit-text-stroke: 2px #000;
+    width: 200px;
+    font-size: 26px;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    display: flex;
+    left: 10%;
+
+
+}
+
+.footer_ul {
+
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #fff;
+    font-family: fantasy;
+
+}
+
+footer nav {
+    filter: invert(1);
+    padding-left: 5%;
+
+}
+
+/* Productos*/
+
+.body_products {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.product_image {
+    /*display: flex;
+    justify-content: column;*/
+    text-align: left;
+    margin-top: 20px;
+}
+
+.tarro_helado {
+
+    width: 70%;
+    margin-left: 100px;
+
+
+}
+
+.h3_product {
+    margin: 10px 0;
+    text-align: left;
+    margin: 0 0 0 300px;
+
+}
+
+.h3_price {
+    margin: 10px 0;
+    text-align: left;
+    margin: 0 0 0 225px;
+
+}
+
+.form {
+    text-align: center;
+    margin-right: 500px;
+}
+
+.form button {
+    margin-top: 20px;
+}
+
+.form select {
+    margin-bottom: 30px;
+}
+
+/*Nosotros*/
+
+.mv {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+/*Contacto*/
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 28px;
+}

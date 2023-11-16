@@ -1,0 +1,12 @@
+h1 {
+    display: flex;
+    align-items: center;
+    color: blue;
+    justify-content: center;
+}
+.Rojo {
+    display: flex;
+    align-items: center;
+    color: red;
+    justify-content: center;
+}

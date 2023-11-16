@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin: 0PX;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+
+/* ESTILOS HEADER */
+header {
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-between;
+}
+
+.Nav1 nav ul {
+    display: flex;
+    gap: 200px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+    align-content: space-between
+}
+
+.imagen {
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.header_nav nav ul {
+    display: flex;
+    list-style: none;
+    align-content: space-between;
+}
+
+/* ESTILOS DEL BANNER */
+
+.banner {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+    height: 30%;
+}
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:70px ;
+    font-weight: 600;
+    color: #fff;
+    line-height: 70px;
+    letter-spacing: -0.64px;
+}
+
+.reserva {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.reserva div {
+    display: flex;
+    padding: 60px;
+
+}
+
+
+.reserva div img {
+    width: 25px;
+    height: 25px;
+
+}
+
+#section-1 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#banner p {
+    margin: 25px 0px;
+    color: #fff;
+}
+
+button {
+    padding: 12px 35px;
+    background-color: rgb(255, 0, 17);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#section-2 {
+    margin: 0px;
+    padding-top: 110px;
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+    text-justify: distribute;
+}
+#section-2 div {
+    display: flex;
+    padding: 20px;
+    align-content: center;
+}
+
+#section-2 div div {
+    display: flex;
+    justify-content: space-between;
+}
+#ima1 {
+    display: flex;
+}
+
+#ima1 img {
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+.centro {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
