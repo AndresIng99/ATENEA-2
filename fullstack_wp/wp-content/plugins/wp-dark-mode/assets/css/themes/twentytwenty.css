@@ -1,0 +1,2 @@
+/* Twentytwenty Support */
+html.wp-dark-mode-active body:not(.overlay-header) #site-header .toggle{color:var(--wp-dark-mode-text)}html.wp-dark-mode-active .woocommerce-product-gallery .woocommerce-product-gallery__trigger .emoji{background:0 0!important}html.wp-dark-mode-active .singular .featured-media::before{background:var(--wp-dark-mode-bg)!important}

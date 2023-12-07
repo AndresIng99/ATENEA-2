@@ -1,0 +1,1159 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "BBQ Restaurant",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 2 (Pro)",
+            "screenshot": "screenshots\/home-2-pro-.jpg",
+            "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 3",
+            "screenshot": "screenshots\/home-3.jpg",
+            "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Menu",
+            "screenshot": "screenshots\/menu.jpg",
+            "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Menu 2 (Pro)",
+            "screenshot": "screenshots\/menu-2-pro-.jpg",
+            "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Locations",
+            "screenshot": "screenshots\/locations.jpg",
+            "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us 2",
+            "screenshot": "screenshots\/about-us-2.jpg",
+            "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us (Pro)",
+            "screenshot": "screenshots\/contact-us-pro-.jpg",
+            "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Popup",
+            "screenshot": "screenshots\/popup.jpg",
+            "source": "templates\/popup-4b2fa7bfb519bb9bb4a711d88407659a.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.6",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "required_css": [
+        {
+            "name": "Custom CSS",
+            "description": "These styles are added to the WordPress Customizer.",
+            "file": "css\/customizer.css"
+        }
+    ],
+    "images": [
+        {
+            "filename": "cow.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/cow.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 1524,
+            "dimensions": [
+                72,
+                72
+            ]
+        },
+        {
+            "filename": "hamburger-and-fries-photo-2983101.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/hamburger-and-fries-photo-2983101-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                }
+            ],
+            "filesize": 207789,
+            "dimensions": [
+                1620,
+                1080
+            ]
+        },
+        {
+            "filename": "bbqshape.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/bbqshape.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                }
+            ],
+            "filesize": 4778,
+            "dimensions": [
+                481,
+                457
+            ]
+        },
+        {
+            "filename": "image-from-rawpixel-id-556344-jpeg-e1666616051687.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/image-from-rawpixel-id-556344-jpeg-e1666616051687-500x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                }
+            ],
+            "filesize": 89260,
+            "dimensions": [
+                800,
+                800
+            ]
+        },
+        {
+            "filename": "image-from-rawpixel-id-1200206-png-e1666616061290.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/image-from-rawpixel-id-1200206-png-e1666616061290-500x425.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 280180,
+            "dimensions": [
+                600,
+                510
+            ]
+        },
+        {
+            "filename": "image-from-rawpixel-id-1200242-png-e1666616075854.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/image-from-rawpixel-id-1200242-png-e1666616075854-500x317.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 144110,
+            "dimensions": [
+                600,
+                380
+            ]
+        },
+        {
+            "filename": "image-from-rawpixel-id-410628-jpeg-e1620923471870.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/image-from-rawpixel-id-410628-jpeg-500x362.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 272531,
+            "dimensions": [
+                1190,
+                862
+            ]
+        },
+        {
+            "filename": "image-from-rawpixel-id-1200212-png-e1666616068618.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/image-from-rawpixel-id-1200212-png-e1666616068618-500x654.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 313474,
+            "dimensions": [
+                600,
+                785
+            ]
+        },
+        {
+            "filename": "meat-burger-with-coleslaw-on-side-and-brown-handled-fork-156114.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/meat-burger-with-coleslaw-on-side-and-brown-handled-fork-156114-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/popup-4b2fa7bfb519bb9bb4a711d88407659a.json",
+                    "name": "Popup"
+                }
+            ],
+            "filesize": 341679,
+            "dimensions": [
+                1620,
+                1080
+            ]
+        },
+        {
+            "filename": "cooked-chicken-on-white-plate-2673353.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/cooked-chicken-on-white-plate-2673353-500x334.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                }
+            ],
+            "filesize": 230160,
+            "dimensions": [
+                1619,
+                1080
+            ]
+        },
+        {
+            "filename": "ham-and-bacon-burger-2983098.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/ham-and-bacon-burger-2983098-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                }
+            ],
+            "filesize": 244554,
+            "dimensions": [
+                1620,
+                1080
+            ]
+        },
+        {
+            "filename": "barbecue-bbq-beef-cooked-410648.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/barbecue-bbq-beef-cooked-410648-500x375.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                }
+            ],
+            "filesize": 296276,
+            "dimensions": [
+                1440,
+                1080
+            ]
+        },
+        {
+            "filename": "burger-with-spinach-and-cheese-1199956.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/burger-with-spinach-and-cheese-1199956-500x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                }
+            ],
+            "filesize": 91906,
+            "dimensions": [
+                640,
+                876
+            ]
+        },
+        {
+            "filename": "white-cream-on-white-bowl-1633525.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/white-cream-on-white-bowl-1633525-500x750.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                }
+            ],
+            "filesize": 112723,
+            "dimensions": [
+                640,
+                960
+            ]
+        },
+        {
+            "filename": "pexels-photo-106343.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/pexels-photo-106343.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 189958,
+            "dimensions": [
+                1280,
+                719
+            ]
+        },
+        {
+            "filename": "close-up-photo-of-man-cooking-meat-1482803.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/close-up-photo-of-man-cooking-meat-1482803-500x328.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 235275,
+            "dimensions": [
+                1645,
+                1080
+            ]
+        },
+        {
+            "filename": "Cow-Print-Wallpaper-Square.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/Cow-Print-Wallpaper-Square-500x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 100215,
+            "dimensions": [
+                1500,
+                1500
+            ]
+        },
+        {
+            "filename": "123.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/123.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                }
+            ],
+            "filesize": 48354,
+            "dimensions": [
+                485,
+                335
+            ]
+        },
+        {
+            "filename": "barbecue-84671_1280-e1666616170478.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/barbecue-84671_1280-e1666616170478-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                }
+            ],
+            "filesize": 176504,
+            "dimensions": [
+                1275,
+                850
+            ]
+        },
+        {
+            "filename": "pexels-photo-291528.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/pexels-photo-291528.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                }
+            ],
+            "filesize": 95708,
+            "dimensions": [
+                640,
+                539
+            ]
+        },
+        {
+            "filename": "allef-vinicius-152195-unsplash.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/allef-vinicius-152195-unsplash.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                }
+            ],
+            "filesize": 7210,
+            "dimensions": [
+                100,
+                81
+            ]
+        },
+        {
+            "filename": "angello-lopez-138917-unsplash.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/angello-lopez-138917-unsplash.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                }
+            ],
+            "filesize": 4028,
+            "dimensions": [
+                100,
+                67
+            ]
+        },
+        {
+            "filename": "patrick-tomasso-499112-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/patrick-tomasso-499112-unsplash.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-809af1069b86cdcfc8131d4a857bf2a6.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 134824,
+            "dimensions": [
+                600,
+                450
+            ]
+        },
+        {
+            "filename": "close-up-view-of-a-cooked-meat-4110372-scaled.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/close-up-view-of-a-cooked-meat-4110372-500x750.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                }
+            ],
+            "filesize": 476856,
+            "dimensions": [
+                1707,
+                2560
+            ]
+        },
+        {
+            "filename": "bbqplate.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/bbqplate-500x500.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 153558,
+            "dimensions": [
+                626,
+                626
+            ]
+        },
+        {
+            "filename": "bbq2.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/bbq2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                }
+            ],
+            "filesize": 49857,
+            "dimensions": [
+                300,
+                307
+            ]
+        },
+        {
+            "filename": "bbq3.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/bbq3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2-pro-a37a5de06bc1f07e247496553c816717.json",
+                    "name": "Home 2 (Pro)"
+                }
+            ],
+            "filesize": 48339,
+            "dimensions": [
+                300,
+                307
+            ]
+        },
+        {
+            "filename": "burger-sandwich-and-cola-on-wooden-surface-2983104.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/burger-sandwich-and-cola-on-wooden-surface-2983104-500x750.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                }
+            ],
+            "filesize": 114642,
+            "dimensions": [
+                640,
+                960
+            ]
+        },
+        {
+            "filename": "pexels-photo-59598.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/pexels-photo-59598.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home-3-1965a6df5f13b210e002b65f25807a03.json",
+                    "name": "Home 3"
+                },
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                },
+                {
+                    "source": "templates\/locations-a35cc96240559b7416d82fdd3b5c2c7c.json",
+                    "name": "Locations"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 389156,
+            "dimensions": [
+                1920,
+                1220
+            ]
+        },
+        {
+            "filename": "dw2-noon-27-gastropub_2.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/dw2-noon-27-gastropub_2.png",
+            "templates": [
+                {
+                    "source": "templates\/menu-c1618c3c3c53ef987e37272863fe8c51.json",
+                    "name": "Menu"
+                }
+            ],
+            "filesize": 17339,
+            "dimensions": [
+                300,
+                213
+            ]
+        },
+        {
+            "filename": "pexels-photo-1108117.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/pexels-photo-1108117.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                }
+            ],
+            "filesize": 366017,
+            "dimensions": [
+                1920,
+                2560
+            ]
+        },
+        {
+            "filename": "Untitled-1_03.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/Untitled-1_03.png",
+            "templates": [
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                }
+            ],
+            "filesize": 63515,
+            "dimensions": [
+                483,
+                335
+            ]
+        },
+        {
+            "filename": "close-up-photo-of-a-person-wearing-hand-gloves-cutting-2491272-scaled.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/close-up-photo-of-a-person-wearing-hand-gloves-cutting-2491272-500x753.jpg",
+            "templates": [
+                {
+                    "source": "templates\/menu-2-pro-46b18f24449e69c98e558065221cd707.json",
+                    "name": "Menu 2 (Pro)"
+                },
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 494260,
+            "dimensions": [
+                1701,
+                2560
+            ]
+        },
+        {
+            "filename": "pexels-photo-236887.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/pexels-photo-236887-500x333.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 224776,
+            "dimensions": [
+                1880,
+                1253
+            ]
+        },
+        {
+            "filename": "3.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 130999,
+            "dimensions": [
+                800,
+                533
+            ]
+        },
+        {
+            "filename": "jeff-l-748406-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/jeff-l-748406-unsplash.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events-2ecd89a270a6769398d95f14ca8c05bf.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 59452,
+            "dimensions": [
+                600,
+                400
+            ]
+        },
+        {
+            "filename": "person-holding-square-white-ceramic-plate-687824.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/person-holding-square-white-ceramic-plate-687824-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                },
+                {
+                    "source": "templates\/contact-us-pro-34c34f0089a23227ed4a8ac4250cb5da.json",
+                    "name": "Contact Us (Pro)"
+                }
+            ],
+            "filesize": 303595,
+            "dimensions": [
+                1920,
+                1280
+            ]
+        },
+        {
+            "filename": "pexels-photo-4405152.jpeg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/pexels-photo-4405152-500x324.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                }
+            ],
+            "filesize": 244660,
+            "dimensions": [
+                1880,
+                1220
+            ]
+        },
+        {
+            "filename": "7.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 69631,
+            "dimensions": [
+                485,
+                335
+            ]
+        },
+        {
+            "filename": "african-man-helping-an-african-woman-to-put-on-her-KKMNNZA.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-64\/wp-content\/uploads\/sites\/67\/2018\/08\/african-man-helping-an-african-woman-to-put-on-her-KKMNNZA-500x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us-8dff18f073c87b1ea5de67213b027d3e.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/about-us-2-ba8e6ac23fc1e1a5e7d3ee86f202a3b6.json",
+                    "name": "About Us 2"
+                }
+            ],
+            "filesize": 174696,
+            "dimensions": [
+                1200,
+                800
+            ]
+        }
+    ]
+}

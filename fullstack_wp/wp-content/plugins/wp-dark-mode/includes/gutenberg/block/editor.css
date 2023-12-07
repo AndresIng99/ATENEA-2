@@ -1,0 +1,1314 @@
+html.wp-dark-mode-theme-darkmode {
+  /**--- Main Styles ----*/
+  /**--- Link Styles ----*/
+  /**--- Link Pseoudo Styles ----*/
+  /**--- Input Styles ----*/
+  /** Editor Area **/
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content) {
+  background-color: #1B2836 !important;
+  color: #fff !important;
+  border-color: #3d5a7a !important;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a *:not(.wp-dark-mode-ignore) {
+  background-color: transparent !important;
+  color: #459BE6 !important;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header a:active,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header a:active *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header a:visited,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header a:visited *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited * {
+  color: #459BE6 !important;
+  border-color: #3d5a7a !important;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header button:not(#collapse-button),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header iframe,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=button],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=checkebox],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=date],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=datetime-local],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=email],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=image],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=month],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=number],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=range],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=reset],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=search],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=submit],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=tel],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=text],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=time],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=url],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=week],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header select,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week],
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) {
+  background-color: #2c4158 !important;
+  color: #fff !important;
+  border-color: #3d5a7a !important;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header button:not(#collapse-button) *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header iframe * *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=button] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=checkebox] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=date] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=datetime-local] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=email] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=image] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=month] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=number] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=range] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=reset] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=search] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=submit] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=tel] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=text] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=time] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=url] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header input[type=week] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header select *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore) *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button) *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe * *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week] *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) * {
+  background: transparent !important;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content, html.wp-dark-mode-theme-darkmode .edit-post-visual-editor {
+  background: #1B2836;
+  color: #fff;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content :not(.wp-dark-mode-ignore):not(img):not(a), html.wp-dark-mode-theme-darkmode .edit-post-visual-editor :not(.wp-dark-mode-ignore):not(img):not(a) {
+  color: #fff !important;
+  border-color: #3d5a7a !important;
+  background-color: #1B2836 !important;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited *:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited *:not(.wp-dark-mode-ignore) {
+  color: #459BE6 !important;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__content a:visited * button:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-darkmode .edit-post-visual-editor a:visited * button:not(.wp-dark-mode-ignore) {
+  background: #2c4158 !important;
+}
+html.wp-dark-mode-theme-darkmode .editor-post-title {
+  color: #fff;
+}
+html.wp-dark-mode-theme-darkmode .interface-interface-skeleton__sidebar {
+  background-color: #1B2836;
+}
+
+html.wp-dark-mode-theme-chathams {
+  /**--- Main Styles ----*/
+  /**--- Link Styles ----*/
+  /**--- Link Pseoudo Styles ----*/
+  /**--- Input Styles ----*/
+  /** Editor Area **/
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content) {
+  background-color: #EDEBE8 !important;
+  color: #1e1e1e !important;
+  border-color: #c0b9af !important;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a *:not(.wp-dark-mode-ignore) {
+  background-color: transparent !important;
+  color: #105d72 !important;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header a:active,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header a:active *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header a:visited,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header a:visited *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited * {
+  color: #105d72 !important;
+  border-color: #c0b9af !important;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header button:not(#collapse-button),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header iframe,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=button],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=checkebox],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=date],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=datetime-local],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=email],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=image],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=month],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=number],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=range],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=reset],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=search],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=submit],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=tel],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=text],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=time],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=url],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=week],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header select,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week],
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) {
+  background-color: #d7d2cb !important;
+  color: #1e1e1e !important;
+  border-color: #c0b9af !important;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header button:not(#collapse-button) *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header iframe * *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=button] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=checkebox] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=date] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=datetime-local] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=email] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=image] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=month] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=number] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=range] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=reset] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=search] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=submit] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=tel] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=text] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=time] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=url] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header input[type=week] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header select *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore) *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button) *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe * *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week] *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) * {
+  background: transparent !important;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content, html.wp-dark-mode-theme-chathams .edit-post-visual-editor {
+  background: #EDEBE8;
+  color: #1e1e1e;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content :not(.wp-dark-mode-ignore):not(img):not(a), html.wp-dark-mode-theme-chathams .edit-post-visual-editor :not(.wp-dark-mode-ignore):not(img):not(a) {
+  color: #1e1e1e !important;
+  border-color: #c0b9af !important;
+  background-color: #EDEBE8 !important;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited *:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited *:not(.wp-dark-mode-ignore) {
+  color: #105d72 !important;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__content a:visited * button:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-chathams .edit-post-visual-editor a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-chathams .edit-post-visual-editor a:visited * button:not(.wp-dark-mode-ignore) {
+  background: #d7d2cb !important;
+}
+html.wp-dark-mode-theme-chathams .editor-post-title {
+  color: #1e1e1e;
+}
+html.wp-dark-mode-theme-chathams .interface-interface-skeleton__sidebar {
+  background-color: #EDEBE8;
+}
+
+html.wp-dark-mode-theme-pumpkin {
+  /**--- Main Styles ----*/
+  /**--- Link Styles ----*/
+  /**--- Link Pseoudo Styles ----*/
+  /**--- Input Styles ----*/
+  /** Editor Area **/
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content) {
+  background-color: #1e1d19 !important;
+  color: #d6cb99 !important;
+  border-color: #565347 !important;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a *:not(.wp-dark-mode-ignore) {
+  background-color: transparent !important;
+  color: #ff9323 !important;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header a:active,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header a:active *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header a:visited,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header a:visited *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited * {
+  color: #ff9323 !important;
+  border-color: #565347 !important;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header button:not(#collapse-button),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header iframe,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=button],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=checkebox],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=date],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=datetime-local],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=email],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=image],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=month],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=number],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=range],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=reset],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=search],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=submit],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=tel],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=text],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=time],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=url],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=week],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header select,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week],
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) {
+  background-color: #3a3830 !important;
+  color: #d6cb99 !important;
+  border-color: #565347 !important;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header button:not(#collapse-button) *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header iframe * *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=button] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=checkebox] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=date] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=datetime-local] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=email] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=image] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=month] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=number] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=range] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=reset] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=search] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=submit] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=tel] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=text] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=time] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=url] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header input[type=week] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header select *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore) *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button) *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe * *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week] *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) * {
+  background: transparent !important;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content, html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor {
+  background: #1e1d19;
+  color: #d6cb99;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content :not(.wp-dark-mode-ignore):not(img):not(a), html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor :not(.wp-dark-mode-ignore):not(img):not(a) {
+  color: #d6cb99 !important;
+  border-color: #565347 !important;
+  background-color: #1e1d19 !important;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited *:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited *:not(.wp-dark-mode-ignore) {
+  color: #ff9323 !important;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__content a:visited * button:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-pumpkin .edit-post-visual-editor a:visited * button:not(.wp-dark-mode-ignore) {
+  background: #3a3830 !important;
+}
+html.wp-dark-mode-theme-pumpkin .editor-post-title {
+  color: #d6cb99;
+}
+html.wp-dark-mode-theme-pumpkin .interface-interface-skeleton__sidebar {
+  background-color: #1e1d19;
+}
+
+html.wp-dark-mode-theme-mustard {
+  /**--- Main Styles ----*/
+  /**--- Link Styles ----*/
+  /**--- Link Pseoudo Styles ----*/
+  /**--- Input Styles ----*/
+  /** Editor Area **/
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content) {
+  background-color: #151819 !important;
+  color: #d5d6d7 !important;
+  border-color: #444d50 !important;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a *:not(.wp-dark-mode-ignore) {
+  background-color: transparent !important;
+  color: #daa40b !important;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header a:active,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header a:active *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header a:visited,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header a:visited *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited * {
+  color: #daa40b !important;
+  border-color: #444d50 !important;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header button:not(#collapse-button),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header iframe,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=button],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=checkebox],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=date],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=datetime-local],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=email],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=image],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=month],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=number],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=range],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=reset],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=search],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=submit],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=tel],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=text],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=time],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=url],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=week],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header select,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week],
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) {
+  background-color: #2c3335 !important;
+  color: #d5d6d7 !important;
+  border-color: #444d50 !important;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header button:not(#collapse-button) *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header iframe * *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=button] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=checkebox] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=date] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=datetime-local] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=email] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=image] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=month] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=number] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=range] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=reset] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=search] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=submit] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=tel] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=text] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=time] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=url] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header input[type=week] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header select *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore) *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button) *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe * *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week] *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) * {
+  background: transparent !important;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content, html.wp-dark-mode-theme-mustard .edit-post-visual-editor {
+  background: #151819;
+  color: #d5d6d7;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content :not(.wp-dark-mode-ignore):not(img):not(a), html.wp-dark-mode-theme-mustard .edit-post-visual-editor :not(.wp-dark-mode-ignore):not(img):not(a) {
+  color: #d5d6d7 !important;
+  border-color: #444d50 !important;
+  background-color: #151819 !important;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited *:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited *:not(.wp-dark-mode-ignore) {
+  color: #daa40b !important;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__content a:visited * button:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-mustard .edit-post-visual-editor a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-mustard .edit-post-visual-editor a:visited * button:not(.wp-dark-mode-ignore) {
+  background: #2c3335 !important;
+}
+html.wp-dark-mode-theme-mustard .editor-post-title {
+  color: #d5d6d7;
+}
+html.wp-dark-mode-theme-mustard .interface-interface-skeleton__sidebar {
+  background-color: #151819;
+}
+
+html.wp-dark-mode-theme-concord {
+  /**--- Main Styles ----*/
+  /**--- Link Styles ----*/
+  /**--- Link Pseoudo Styles ----*/
+  /**--- Input Styles ----*/
+  /** Editor Area **/
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) :not(.wp-dark-mode-ignore):not(mark):not(code):not(pre):not(ins):not(option):not(input):not(select):not(textarea):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-time-slider):not(.mejs-overlay-play):not(.block-editor-default-block-appender__content) {
+  background-color: #171717 !important;
+  color: #bfb7c0 !important;
+  border-color: #4a4a4a !important;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a *:not(.wp-dark-mode-ignore) {
+  background-color: transparent !important;
+  color: #f776f0 !important;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header a:active,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header a:active *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header a:visited,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header a:visited *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:active *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) a:visited * {
+  color: #f776f0 !important;
+  border-color: #4a4a4a !important;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header button:not(#collapse-button),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header iframe,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=button],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=checkebox],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=date],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=datetime-local],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=email],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=image],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=month],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=number],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=range],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=reset],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=search],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=submit],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=tel],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=text],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=time],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=url],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=week],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header select,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week],
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) {
+  background-color: #313131 !important;
+  color: #bfb7c0 !important;
+  border-color: #4a4a4a !important;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header button:not(#collapse-button) *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header iframe *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header iframe * *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=button] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=checkebox] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=date] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=datetime-local] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=email] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=image] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=month] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=number] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=range] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=reset] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=search] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=submit] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=tel] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=text] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=time] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=url] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header input[type=week] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header select *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__header i:not(.wp-dark-mode-ignore) *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) button:not(#collapse-button) *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) iframe * *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=button] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=checkebox] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=date] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=datetime-local] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=email] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=image] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=month] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=number] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=range] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=reset] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=search] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=submit] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=tel] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=text] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=time] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=url] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) input[type=week] *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) select *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) textarea:not(.block-editor-default-block-appender__content):not(.editor-post-title__input) *,
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__body > div:not(.interface-interface-skeleton__content) i:not(.wp-dark-mode-ignore) * {
+  background: transparent !important;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content, html.wp-dark-mode-theme-concord .edit-post-visual-editor {
+  background: #171717;
+  color: #bfb7c0;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content :not(.wp-dark-mode-ignore):not(img):not(a), html.wp-dark-mode-theme-concord .edit-post-visual-editor :not(.wp-dark-mode-ignore):not(img):not(a) {
+  color: #bfb7c0 !important;
+  border-color: #4a4a4a !important;
+  background-color: #171717 !important;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited *:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-concord .edit-post-visual-editor a:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited *:not(.wp-dark-mode-ignore) {
+  color: #f776f0 !important;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__content a:visited * button:not(.wp-dark-mode-ignore), html.wp-dark-mode-theme-concord .edit-post-visual-editor a iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:active * button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited button:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited * iframe:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited * iframe *:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited * input:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited * select:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited * textarea:not(.wp-dark-mode-ignore),
+html.wp-dark-mode-theme-concord .edit-post-visual-editor a:visited * button:not(.wp-dark-mode-ignore) {
+  background: #313131 !important;
+}
+html.wp-dark-mode-theme-concord .editor-post-title {
+  color: #bfb7c0;
+}
+html.wp-dark-mode-theme-concord .interface-interface-skeleton__sidebar {
+  background-color: #171717;
+}
+
+.wpdm-theme-switch {
+  border-radius: 100%;
+  display: block;
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.wpdm-theme-switch-wrapper {
+  position: relative;
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.wpdm-theme-switch-wrapper #wpDarkModeThemeSwitch {
+  display: flex;
+  align-items: center;
+}
+
+#wpdmColorPalettesContainer {
+  position: absolute;
+  top: 50px;
+  width: 180px !important;
+  background: #555;
+  right: -37px;
+}
+#wpdmColorPalettesContainer .wpdm-color-palettes-wrapper {
+  padding: 10px;
+  border: 1px solid;
+}
+#wpdmColorPalettesContainer .wpdm-color-palettes-wrapper a {
+  display: flex;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #eee;
+  align-items: center;
+}
+#wpdmColorPalettesContainer .wpdm-color-palettes-wrapper a:focus {
+  border: none;
+  box-shadow: none;
+}
+#wpdmColorPalettesContainer .wpdm-color-palettes-wrapper a .tick {
+  margin-left: auto;
+}
+#wpdmColorPalettesContainer .wpdm-color-palettes-wrapper a img {
+  max-width: 20px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#wpdmColorPalettesContainer .wpdm-color-palettes-wrapper a.disabled *:not(.wp-darkmode-pro-badge) {
+  opacity: 0.3;
+}
+#wpdmColorPalettesContainer .wpdm-color-palettes-wrapper a.disabled .wp-darkmode-pro-badge {
+  border: 1px solid deeppink;
+  border-radius: 3px;
+  padding: 1px 3px;
+  margin-left: auto;
+}
+
+.wpdm-arrow {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-top: -3px;
+}
+.wpdm-arrow.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#wpDarkModeThemeSwitchImg {
+  width: 20px;
+  margin-right: 5px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.edit-post-header {
+  overflow: visible !important;
+}
+.edit-post-header .edit-post-header__toolbar {
+  overflow: visible !important;
+}
+
+.image-choose-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-choose-opt {
+  width: 32.5%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.image-choose-opt img {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+}
+
+.image-choose-opt.active {
+  border: 1px solid #555;
+}
+
+.image-choose-opt input {
+  display: none;
+}
+
+.switch-disabled {
+  opacity: 0.6;
+  filter: brightness(0.6);
+}
+
+[for=style_8],
+[for=style_9],
+[for=style_10],
+[for=style_11],
+[for=style_12],
+[for=style_13] {
+  border: 1px solid #ddd;
+}
+[for=style_8] img,
+[for=style_9] img,
+[for=style_10] img,
+[for=style_11] img,
+[for=style_12] img,
+[for=style_13] img {
+  height: auto;
+  width: 90%;
+}
+
+/*# sourceMappingURL=editor.css.map */

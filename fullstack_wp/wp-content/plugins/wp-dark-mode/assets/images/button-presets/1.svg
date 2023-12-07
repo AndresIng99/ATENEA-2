@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_1476" data-name="Group 1476" transform="translate(-12897 -1375)">
+    <g id="Rectangle_487" data-name="Rectangle 487" transform="translate(12897 1375)" fill="#fff" stroke="#e4e4e4" stroke-width="1">
+      <rect width="80" height="80" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" rx="4.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_509" data-name="Rectangle 509" width="36" height="36" rx="8" transform="translate(12919 1397)" fill="#6b6b6b"/>
+    <path id="moon_2_" data-name="moon (2)" d="M8.765,17.484a8.513,8.513,0,0,0,7.811-4.926,6.676,6.676,0,0,1-2.815.555A6.877,6.877,0,0,1,6.892,6.244,7.118,7.118,0,0,1,10.6.1,13.056,13.056,0,0,0,8.765,0a8.742,8.742,0,1,0,0,17.484Zm0,0" transform="translate(12928.978 1406.001)" fill="#fff"/>
+  </g>
+</svg>

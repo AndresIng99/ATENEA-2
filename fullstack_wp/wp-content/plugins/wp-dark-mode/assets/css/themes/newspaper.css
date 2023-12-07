@@ -1,0 +1,2 @@
+/* Newspaper Support */
+.wp-dark-mode-switcher{z-index:9999}html.wp-dark-mode-active .td-module-meta-info{background-color:transparent}html.wp-dark-mode-active .td-module-meta-info .td-module-title a,html.wp-dark-mode-active .td-module-meta-info .td-post-author-name a{color:var(--wp-dark-mode-link)}html.wp-dark-mode-active .td-social-sharing-button{border:1px solid}

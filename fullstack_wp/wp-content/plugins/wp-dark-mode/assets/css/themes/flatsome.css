@@ -1,0 +1,2 @@
+/* Flatsome Support */
+html.wp-dark-mode-active .section-title b{background:var(--wp-dark-mode-text)!important}html.wp-dark-mode-active .banner-inner,html.wp-dark-mode-active .lightbox-content,html.wp-dark-mode-active .payment-icon{border:1px solid}html.wp-dark-mode-active .is-divider{background:var(--wp-dark-mode-text)!important}html.wp-dark-mode-active .price .amount{color:var(--wp-dark-mode-text)!important}
